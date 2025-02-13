@@ -1,0 +1,35 @@
+GenericEntity : "{7B0F9B5DCCE182BF}Prefabs/Structures/BuildingParts/Ruins/CollapsedBuilding01.et" {
+ ID "630AF1C4242F33DA"
+ coords 4529.423 57.231 8304.079
+ angleY -19.115
+ scale 0.8
+ {
+  $grp GenericEntity : "{2953E37192DFB4BA}Prefabs/Structures/BuildingParts/Furniture/DestroyedSofa.et" {
+   {
+    ID "630B1324326CEFDA"
+    coords 4.934 4.675 -0.203
+    angleX -6.827
+    angleY -59.938
+    angleZ 1.83
+   }
+   {
+    ID "630B1324326CEFDB"
+    coords -0.161 8.002 -1.196
+    angleX -4.981
+    angleY 0.437
+    angleZ -5.019
+   }
+   {
+    ID "630B1324326D7D2D"
+    coords -9.265 1.115 3.028
+    angleX 80.89
+    angleY -70.179
+    angleZ -24.49
+   }
+  }
+  GenericEntity : "{FA4B0C7DC5083D8D}Prefabs/Structures/BuildingParts/Ruins/CollapsedBuilding01Debris.et" {
+   ID "630B1324326D7D2B"
+   coords 0 -0.107 0
+  }
+ }
+}

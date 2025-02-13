@@ -1,0 +1,56 @@
+SCR_DestructibleBuildingEntity : "{22759E6CD7F7BFF8}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Corner_Stairs.et" {
+ ID "523E933397DE14AB"
+ coords 340.318 0.152 2086.677
+ angleY 15
+ {
+  SCR_DestructibleBuildingEntity : "{3E7CF4C5E180F5D1}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Windows.et" {
+   ID "62D039C0C013FCB5"
+   coords 2.48 -0.595 7.443
+   angleY 90
+  }
+  SCR_DestructibleBuildingEntity : "{4B2072D6C07CC8C1}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Chimney.et" {
+   ID "62D039C0C013FCB2"
+   coords -5.495 0.948 -1.647
+  }
+  SCR_DestructibleBuildingEntity : "{5A81BD9171FC3B07}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_BrickPile_Big.et" {
+   ID "62D039C0C013FCA9"
+   coords -3.062 0.016 0.625
+   angleY -15
+   scale 2.55
+  }
+  $grp SCR_DestructibleBuildingEntity : "{5CDDDFB2D698DCC3}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_WoodPile.et" {
+   {
+    ID "62D039C0C013FCA8"
+    coords -4.756 0.262 8.739
+    angleY -15
+    scale 2.564
+   }
+   {
+    ID "62D039C0C013FCAB"
+    coords -10.315 0.262 6.799
+    angleY -150
+    scale 2.564
+   }
+  }
+  SCR_DestructibleBuildingEntity : "{8C3EF42812208AB4}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Entry.et" {
+   ID "62D039C0C013FCB7"
+   coords -2.997 0.098 12.283
+  }
+  SCR_DestructibleBuildingEntity : "{9CFA6E8952B4E00D}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Wall.et" {
+   ID "62D039C0C013FCB6"
+   coords -12.073 0.506 5.602
+   angleY -90
+  }
+  SCR_DestructibleBuildingEntity : "{AAB9EC1130878E02}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Corner.et" {
+   ID "62D039C0C013FCB1"
+   coords -9.893 0.627 0.653
+   angleY 90
+  }
+  SCR_DestructibleBuildingEntity : "{F7919E01B9B17B3E}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_BrickPile_Small.et" {
+   ID "62D039C0C013FCAA"
+   coords -9.146 0.233 0.91
+   angleY -15
+   scale 3.01
+  }
+ }
+}

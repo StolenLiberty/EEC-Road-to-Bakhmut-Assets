@@ -1,0 +1,91 @@
+SCR_DestructibleBuildingEntity : "{22759E6CD7F7BFF8}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Corner_Stairs.et" {
+ ID "523E933397DE14AB"
+ coords 4035.164 0 8116.372
+ angleY -105
+ {
+  $grp SCR_DestructibleBuildingEntity : "{3E7CF4C5E180F5D1}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Windows.et" {
+   {
+    ID "62E201B918F3D105"
+    coords 6.531 -0 4.941
+    angleY -180
+   }
+   {
+    ID "62E201B918FC4C29"
+    coords -9.455 -0.542 -2.144
+   }
+  }
+  $grp SCR_DestructibleBuildingEntity : "{5CDDDFB2D698DCC3}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_WoodPile.et" {
+   {
+    ID "62E201B918F3BB8E"
+    coords -5.014 -0 2.61
+    angleY -135
+    scale 3.31
+   }
+   {
+    ID "62E201B918F3BB8F"
+    coords -14.937 -0 9.895
+    angleY 105
+    scale 3.31
+   }
+   {
+    ID "62E201B918F3D104"
+    coords 1.203 -0 9.719
+    angleY -135
+    scale 2.483
+   }
+  }
+  SCR_DestructibleBuildingEntity : "{8C3EF42812208AB4}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Entry.et" {
+   ID "62E201B918F3ABE8"
+   coords 11.689 0.152 8.967
+   angleY 90
+  }
+  $grp SCR_DestructibleBuildingEntity : "{9CFA6E8952B4E00D}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Wall.et" {
+   {
+    ID "62E201B918F3ABE9"
+    coords -7.336 -0 15.567
+    angleY -180
+   }
+   {
+    ID "62E201B918F3BB92"
+    coords 5.704 0.898 15.558
+    angleY -180
+   }
+   {
+    ID "62E201B918FC4C2F"
+    coords -13.027 0.325 6.327
+    angleY 90
+   }
+   {
+    ID "62E201B918FC4E4D"
+    coords -4.127 0.325 7.283
+    angleY -180
+   }
+  }
+  $grp SCR_DestructibleBuildingEntity : "{AAB9EC1130878E02}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Corner.et" {
+   {
+    ID "62E201B918FC4C2E"
+    coords -18.236 -0 0.641
+    angleY 90
+   }
+   {
+    ID "62E201B918FCB461"
+    coords -17.713 -0 13.088
+    angleY -180
+   }
+  }
+  $grp SCR_DestructibleBuildingEntity : "{F7919E01B9B17B3E}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_BrickPile_Small.et" {
+   {
+    ID "62E201B918F3BB90"
+    coords 7.468 0.218 11.368
+    angleY 105
+    scale 3.414
+   }
+   {
+    ID "62E201B918F3D107"
+    coords -8.282 0.218 10.359
+    angleY 105
+    scale 3.994
+   }
+  }
+ }
+}

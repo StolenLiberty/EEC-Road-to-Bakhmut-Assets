@@ -1,0 +1,34 @@
+GenericEntity {
+ ID "62E201BF71626457"
+ components {
+  MeshObject "{631565D88EE917DA}" {
+   Object "{42F846D36F731AD1}Assets/Structures/Ruins/destroyed house 20.xob"
+  }
+  RigidBody "{631565D889E81234}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 7435.417 86.834 1301.12
+ angleY -90
+ {
+  $grp GenericEntity : "{7BF48E81D9A5DD4F}Prefabs/Structures/Buildings/Parts/Collapsed Debris.et" {
+   {
+    ID "63152C0A2FC75A90"
+    coords -8.694 -0.752 -1.969
+    angleX 1.861
+    angleY 82.49
+    angleZ 1.257
+    scale 0.82
+   }
+   {
+    ID "63152C0A2FC76FF2"
+    coords 2.748 -0.262 1.444
+    angleX 2.018
+    angleY -104.922
+    angleZ -1.527
+   }
+  }
+ }
+}

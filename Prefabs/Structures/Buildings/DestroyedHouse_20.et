@@ -1,0 +1,52 @@
+GenericEntity {
+ ID "62E201B94130BCBF"
+ components {
+  MeshObject "{62E201B97C552891}" {
+   Object "{978F9944C865BC0E}Assets/Structures/Houses/destroyed house 20.xob"
+  }
+  RigidBody "{644D1552524FA172}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{644D15525AECF47A}" {
+  }
+  Hierarchy "{644D1552466084D0}" {
+  }
+ }
+ coords 6030.733 72.081 2066.311
+ angleY 26.982
+ {
+  $grp SCR_DestructibleBuildingEntity : "{5CDDDFB2D698DCC3}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_WoodPile.et" {
+   {
+    ID "63140AE2DE40A525"
+    coords -2.476 0.052 -8.779
+    angleY -39.557
+    scale 3.091
+   }
+   {
+    ID "63140AE2DE40A526"
+    coords 7.077 0.052 2.981
+    angleY -39.557
+    scale 2.251
+   }
+   {
+    ID "63140AE2DE40E812"
+    coords 2.236 0.323 -2.362
+    angleY -174.557
+    scale 2.251
+   }
+   {
+    ID "63140AE2DE40E813"
+    coords -0.424 0.131 6.073
+    angleY -24.557
+   }
+   {
+    ID "63140AE2DE40E82C"
+    coords 7.731 0.052 -6.542
+    angleY -174.557
+    scale 2.251
+   }
+  }
+ }
+}

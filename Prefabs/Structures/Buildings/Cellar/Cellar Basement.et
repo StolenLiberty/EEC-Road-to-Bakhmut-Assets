@@ -1,0 +1,138 @@
+GenericEntity {
+ ID "63054BD86009739A"
+ components {
+  MeshObject "{63054BD93C415752}" {
+   Object "{B17C598D216F5868}Assets/Structures/Cellars/cellar Ukraine.xob"
+  }
+  RigidBody "{63054BD976A9EFEC}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 4138.823 49.981 8185.262
+ angleY -25.465
+ {
+  GenericEntity : "{0011A3CBD1B1212A}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_01.et" {
+   ID "645933EAB6DBC26A"
+   coords -6.84 -2.77 2.689
+  }
+  GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
+   ID "645933EAB6DBC253"
+   coords -8.513 -2.77 2.701
+  }
+  GenericEntity : "{06FE4FE70907D486}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_01.et" {
+   ID "645933EAB6DBDD83"
+   coords -5.839 -2.77 1.734
+   angleY -90
+  }
+  StaticModelEntity : "{1A34A7A8677C3EC1}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_NightStand_US_02.et" {
+   ID "645933EAB6DBDD5A"
+   coords -5.873 -2.77 3.076
+   angleY -120
+  }
+  GenericEntity : "{1CA1A9D19D7C8445}Prefabs/Props/Furniture/Rack_01_Short.et" {
+   ID "645933EAB6DBC2F2"
+   coords -11.858 -2.77 -0.09
+   angleY -90
+  }
+  GenericEntity : "{20759E1CA7F808BE}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUS_01.et" {
+   ID "645933EAB6DBC24C"
+   coords -8.67 -2.77 -0.334
+  }
+  GenericEntity : "{2424EBB806A690D4}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_02.et" {
+   ID "645933EAB6DBC27F"
+   coords -10.419 -2.77 -0.815
+  }
+  StaticModelEntity : "{2A19DAD16816C3A8}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Stack_USSR_01.et" {
+   ID "645933EAB6DBDD39"
+   coords -10.872 -2.77 3.258
+   angleY 5.6
+  }
+  GenericEntity : "{5E99DD1E8377D27F}Prefabs/Props/Garbage/Bins/TrashBin_02.et" {
+   ID "645933EAB6DBC2E3"
+   coords -12.361 -2.77 3.284
+   angleY 165
+  }
+  GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
+   ID "645933EAB6DBC260"
+   coords -7.504 -2.77 -0.136
+  }
+  GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
+   ID "645933EAB6DBC20F"
+   coords -9.465 -2.77 2.891
+  }
+  GenericEntity : "{8BAF6C3ACF99388E}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_05.et" {
+   ID "645933EAB6DBC2BC"
+   coords -7.402 -2.77 1.066
+  }
+  GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
+   ID "645933EAB6DBC2A1"
+   coords -9.492 -1.864 2.898
+   angleY 15
+  }
+  StaticModelEntity : "{99AF9B997328956D}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Stack_US_01.et" {
+   ID "645933EAB6DBDD2D"
+   coords -7.961 -2.77 2.981
+   angleY -180
+  }
+  GenericEntity : "{9D9312AA9984A5CE}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_08.et" {
+   ID "645933EAB6DBC2C3"
+   coords -8.232 -2.77 -1.456
+  }
+  GenericEntity : "{A76D4569D3C4D560}Prefabs/Props/Flags/DAAT_01.et" {
+   ID "645933EAB6DBC22D"
+   coords -12.598 -1.686 1.438
+   angleY -90
+   scale 2
+  }
+  $grp GenericEntity : "{AC49D9D23A2BD1D8}Prefabs/Props/Furniture/BunkBed_01_Double.et" {
+   {
+    ID "645933EAB6DBDD03"
+    coords -11.433 -2.77 -3.006
+    angleY -90
+   }
+   {
+    ID "645933EAB6DBDD11"
+    coords -6.69 -2.77 -3.006
+    angleY -90
+   }
+  }
+  GenericEntity : "{B69B4902BAF5B1B9}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_02.et" {
+   ID "645933EAB6DBC2DE"
+   coords -11.842 -2.77 0.49
+   angleY -75
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   ID "645933EAB6DBC232"
+   coords -6.507 -2.77 -0.889
+  }
+  $grp GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
+   {
+    ID "645933EAB6DBC21F"
+    coords -7.489 -2.77 -2.318
+    angleY 165
+   }
+   {
+    ID "645933EAB6DBC293"
+    coords -10.876 -2.77 -2.694
+    angleY 165
+   }
+  }
+  GameEntity : "{DA52DA6AD0028FF3}Prefabs/Props/Civilian/LightTable_01/LightTable_01_Interactive.et" {
+   ID "645933EAB6DBDDB6"
+   coords -8.534 -1.864 3.178
+   angleY -150
+  }
+  GenericEntity : "{E7EC6671E87FDFBC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Cowshed_R_EXT_B.et" {
+   ID "63054BD860097390"
+   coords -0.123 0.106 -0.014
+   angleY 90
+  }
+  GenericEntity : "{F4123D86F860B5E1}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_02.et" {
+   ID "645933EAB6DBC28D"
+   coords -9.669 -2.77 1.446
+   angleY -45
+  }
+ }
+}

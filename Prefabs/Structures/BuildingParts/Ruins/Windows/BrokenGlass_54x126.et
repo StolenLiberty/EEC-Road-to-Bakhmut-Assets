@@ -1,0 +1,18 @@
+GenericEntity : "{86834A0D5920F32F}Prefabs/Structures/Core/DestructibleGlass_Base.et" {
+ ID "51C4DA20FAD8904E"
+ components {
+  MeshObject "{51C4DA208DB0E200}" {
+   Object "{04472D6CF53CF70E}Assets/Structures/BuildingsParts/Windows/Glass_54x126/Glass_01_54x126.xob"
+  }
+  RigidBody "{51C4DA2091875CD5}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{52B6E4A66D596523}" {
+     m_PhaseModel "{7EAA1EE6FCF7415C}Assets/Structures/BuildingsParts/Windows/Glass_54x126/Dst/Glass_01_54x126_dst.xob"
+    }
+   }
+  }
+ }
+}

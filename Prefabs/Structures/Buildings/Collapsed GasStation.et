@@ -1,0 +1,8 @@
+GenericEntity : "{BF4614AA3A998E82}Prefabs/Structures/Buildings/Collapsed GasStation.et" {
+ ID "630B132AE13B12D8"
+ {
+  GenericEntity : "{9D62627F275776D0}Prefabs/Structures/Buildings/Collapsed GasStation Pump.et" {
+   ID "630B132B31A549E3"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+SCR_DestructibleBuildingEntity : "{ACADAFA424DA7916}Prefabs/Structures/Buildings/Parts/Destoryedhouse01_01.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{FE9CC68DE3B52CFD}Assets/Structures/Houses/CollapsedBuilding05.xob"
+  }
+  RigidBody "{6315180AA4857B52}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 4361.229 55.62 8172.729
+ scale 1.2
+}

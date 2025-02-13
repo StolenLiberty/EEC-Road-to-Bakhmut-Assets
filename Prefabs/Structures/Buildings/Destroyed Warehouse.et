@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "63152C0E9F59BF99"
+ components {
+  MeshObject "{63152C0E03DA09B8}" {
+   Object "{0BF34F2975F79270}Assets/Structures/Warehouse/Warehouse.xob"
+  }
+  RigidBody "{63152C0EA78E5086}" {
+   Layers 10502146
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 168.715 1 53.322
+ scale 0.9
+}

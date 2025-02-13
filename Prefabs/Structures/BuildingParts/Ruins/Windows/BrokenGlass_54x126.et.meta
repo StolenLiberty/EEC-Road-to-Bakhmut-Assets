@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F70177C99ED7C6F4}Prefabs/Structures/BuildingParts/Windows/Glass_54x126/BrokenGlass_54x126.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

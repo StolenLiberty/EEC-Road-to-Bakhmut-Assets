@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{01555BEA32ADC8D6}Prefabs/Structures/BuildingParts/Windows/Glass_200x260/Glass_200x260.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
