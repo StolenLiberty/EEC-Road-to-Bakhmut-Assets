@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B0382E039EBE672F}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_3f.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

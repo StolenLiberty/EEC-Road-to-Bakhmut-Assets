@@ -1,0 +1,7 @@
+Tree : "{F2780B51D32DE9D9}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_base.et" {
+ ID "5248B0CAA82E4350"
+ "Kinetic multiplier" 1
+ "Fragmentation multiplier" 5
+ "Explosive multiplier" 3
+ "Incendiary multiplier" 5
+}
