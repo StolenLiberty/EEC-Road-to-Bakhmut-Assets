@@ -1,0 +1,9 @@
+Tree : "{F3DDDAD4BF622065}Prefabs/Vegetation/Tree/t_populus_nigra/t_populus_nigra_base.et" {
+ ID "0F2AA6B42CA78628"
+ coords 118.985 -113.084 -139.772
+ MaxHealth 4000
+ "Kinetic multiplier" 1
+ "Fragmentation multiplier" 5
+ "Explosive multiplier" 3
+ "Incendiary multiplier" 5
+}

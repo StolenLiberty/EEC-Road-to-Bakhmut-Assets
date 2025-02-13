@@ -1,0 +1,8 @@
+Tree : "{8048F498E352CA14}Prefabs/Vegetation/Tree/t_sorbus_aucuparia/t_sorbus_aucuparia_base.et" {
+ ID "0F2AA6B42CA78628"
+ MaxHealth 3000
+ "Kinetic multiplier" 1
+ "Fragmentation multiplier" 5
+ "Explosive multiplier" 3
+ "Incendiary multiplier" 5
+}

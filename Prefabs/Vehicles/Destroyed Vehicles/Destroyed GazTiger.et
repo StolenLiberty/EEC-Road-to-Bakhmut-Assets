@@ -1,0 +1,16 @@
+GenericEntity {
+ ID "62CF0B3DE63714D0"
+ components {
+  MeshObject "{62CF0B3D888A60D4}" {
+   Object "{D13C4550F81A62FB}Assets/Vehicles/Destroyed Vehicles/DestroyedVic4.xob"
+  }
+  RigidBody "{62CF0B3DF6BC960F}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{62CF0B3DF48D822E}" {
+  }
+ }
+ coords 115.084 74.6 -148.19
+}

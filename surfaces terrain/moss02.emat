@@ -1,0 +1,7 @@
+TerrainMaterial {
+ Color 0.381 0.381 0.381 1
+ SurfaceProperties "{0A0E0A00D6C9FAAB}Common/Materials/Game/moss.gamemat"
+ BCRMap "{9FCED3E448350F22}Textures/Moss02.edds"
+ NHOMap "{35886CECE512BDC4}Textures/Moss02Normal.edds"
+ DielectricReflectance 0.031
+}

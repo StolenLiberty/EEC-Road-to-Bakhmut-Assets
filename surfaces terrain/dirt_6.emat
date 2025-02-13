@@ -1,0 +1,10 @@
+TerrainMaterial {
+ Color 0.701 0.701 0.701 1
+ ApplyAlbedoToEmissive 1
+ SurfaceProperties "{92113D135268D329}Common/Materials/Game/soil.gamemat"
+ BCRMap "{9304C23BE1518699}Textures/Dirt06.edds"
+ NHOMap "{1EC9A3B47AD4687D}Textures/Dirt06Normals.edds"
+ DebugColor 0.503 0.376 0 0
+ BCRMiddleMap "{2F075B964BA7A8A9}surfaces terrain/textures/dirt/ground04_BCR.edds"
+ NHOMiddleMap "{083010D248E1EEBE}surfaces terrain/textures/dirt/ground04_NHO.edds"
+}

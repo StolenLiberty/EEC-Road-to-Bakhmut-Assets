@@ -1,0 +1,8 @@
+Tree : "{DF9A6494A3B6231C}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_fragilis_base.et" {
+ ID "50868BB1345DD00F"
+ MaxHealth 3000
+ "Kinetic multiplier" 1
+ "Fragmentation multiplier" 5
+ "Explosive multiplier" 3
+ "Incendiary multiplier" 5
+}
