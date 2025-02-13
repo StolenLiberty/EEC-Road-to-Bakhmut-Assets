@@ -1,0 +1,134 @@
+MetaFileClass {
+ Name "{978F9944C865BC0E}Assets/Structures/Houses/destroyed house 20.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{630A112AEB49ED17}" {
+     SourceMaterial "KB3D_WRK_BrickOrangeDirtD"
+     AssignedMaterial "{5CE7BDC722D05AE1}Assets/Structures/Houses/Data/KB3D_WRK_BrickOrangeDirtD.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912EA}" {
+     SourceMaterial "KB3D_WRK_WoodDamTrim"
+     AssignedMaterial "{BEC848CB2F05FB4B}Assets/Structures/Houses/Data/KB3D_WRK_PlyWoodWornA.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912EC}" {
+     SourceMaterial "KB3D_WRK_WoodHeartwoodAtlas"
+     AssignedMaterial "{BEC848CB2F05FB4B}Assets/Structures/Houses/Data/KB3D_WRK_PlyWoodWornA.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912E0}" {
+     SourceMaterial "KB3D_WRK_WoodRawA"
+     AssignedMaterial "{BEC848CB2F05FB4B}Assets/Structures/Houses/Data/KB3D_WRK_PlyWoodWornA.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912E5}" {
+     SourceMaterial "KB3D_WRK_DryWallPaintedWhite"
+     AssignedMaterial "{8DA38787AF4366EF}Assets/Structures/Houses/Data/KB3D_WRK_FabricWhiteWorn.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912D5}" {
+     SourceMaterial "KB3D_WRK_CeramicTileWallDamagedA"
+     AssignedMaterial "{C42667A41E8B5BDC}Assets/Structures/Houses/Data/KB3D_WRK_CeramicTileFloorDamagedA.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912C8}" {
+     SourceMaterial "KB3D_WRK_DryWallPaintedBlue"
+     AssignedMaterial "{8DA38787AF4366EF}Assets/Structures/Houses/Data/KB3D_WRK_FabricWhiteWorn.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912CC}" {
+     SourceMaterial "KB3D_WRK_PlyWoodWornB"
+     AssignedMaterial "{BEC848CB2F05FB4B}Assets/Structures/Houses/Data/KB3D_WRK_PlyWoodWornA.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912C0}" {
+     SourceMaterial "KB3D_WRK_WoodChipped"
+     AssignedMaterial "{190A0E5833832491}Assets/Structures/Houses/Data/KB3D_WRK_WoodChipped.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912BB}" {
+     SourceMaterial "KB3D_WRK_ConcreteDamagedEdgesTrim"
+     AssignedMaterial "{2B14CDC46856EED5}Assets/Structures/Houses/Data/KB3D_WRK_WoodFloorDamagedA.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912B5}" {
+     SourceMaterial "KB3D_WRK_IronDarkWorn"
+     AssignedMaterial "{8B4457C6515494AA}Assets/Structures/Houses/Data/KB3D_WRK_IronDarkWorn.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912A8}" {
+     SourceMaterial "KB3D_WRK_MetalPaintedDamagedB"
+     AssignedMaterial "{2B14CDC46856EED5}Assets/Structures/Houses/Data/KB3D_WRK_WoodFloorDamagedA.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912A2}" {
+     SourceMaterial "KB3D_WRK_WoodRawB"
+     AssignedMaterial "{190A0E5833832491}Assets/Structures/Houses/Data/KB3D_WRK_WoodChipped.emat"
+    }
+    MaterialAssignClass "{630A112AEB4912A7}" {
+     SourceMaterial "KB3D_WRK_RoofSlateDamaged"
+     AssignedMaterial "{F052A2181F95F3DB}Assets/Structures/Houses/Data/KB3D_WRK_RoofSlateDamaged.emat"
+    }
+    MaterialAssignClass "{630A112AEB49129B}" {
+     SourceMaterial "KB3D_WRK_GlassDirtDamA"
+     AssignedMaterial "{CA04CFF8FA857B8D}Assets/Props/Furniture/Bookshelf_01/data/Bookshelf_01_Glass.emat"
+    }
+    MaterialAssignClass "{630A112AEB491292}" {
+     SourceMaterial "KB3D_WRK_BrickOrangeDirtE"
+     AssignedMaterial "{5CE7BDC722D05AE1}Assets/Structures/Houses/Data/KB3D_WRK_BrickOrangeDirtD.emat"
+    }
+    MaterialAssignClass "{630A112AEB491297}" {
+     SourceMaterial "KB3D_WRK_CeramicTileFloorDamagedC"
+     AssignedMaterial "{D0920BAACA9238EE}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteBlockA.emat"
+    }
+    MaterialAssignClass "{630A112AEB491288}" {
+     SourceMaterial "KB3D_WRK_ConcreteBlockA"
+     AssignedMaterial "{D0920BAACA9238EE}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteBlockA.emat"
+    }
+    MaterialAssignClass "{630A112AEB49128C}" {
+     SourceMaterial "KB3D_WRK_WoodPBeigeDamagedA"
+     AssignedMaterial "{BEC848CB2F05FB4B}Assets/Structures/Houses/Data/KB3D_WRK_PlyWoodWornA.emat"
+    }
+    MaterialAssignClass "{630A112AEB491286}" {
+     SourceMaterial "KB3D_WRK_GrassGroundDamaged"
+     AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Build {
+    }
+   }
+   MergeTriMeshes 0
+   GeometryParams {
+    GeometryParam UTM_Colider_001 {
+     LayerPreset "InteractionFireGeo"
+     SurfaceProperties {
+      "{C3691F2D8FE0234F}Common/Materials/Game/dirt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Colider_002 {
+     LayerPreset "InteractionFireGeo"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{630A112AEA26A115}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{630A112AEA26A61A}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{630A112AEA26A7E5}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{630A112AEA26A7B7}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{630A112AEA26A78E}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{630A112AEA26A753}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

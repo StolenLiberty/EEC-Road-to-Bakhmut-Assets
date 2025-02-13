@@ -1,0 +1,5 @@
+MatPBRBasic {
+ AOScale 0.5
+ BCRMap "{A92FBCCAE9630A21}Assets/Structures/Props/Statue/Data/BlueConcrete_Base_color.edds"
+ NMOMap "{B832FCA9F616F03E}Assets/Structures/Props/Statue/Data/BlueConcrete_Normal_OpenGL.edds"
+}

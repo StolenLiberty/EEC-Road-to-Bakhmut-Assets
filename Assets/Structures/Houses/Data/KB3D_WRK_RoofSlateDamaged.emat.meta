@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F052A2181F95F3DB}Assets/Structures/Houses/Data/KB3D_WRK_RoofSlateDamaged.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

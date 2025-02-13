@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2B14CDC46856EED5}Assets/Structures/Houses/Data/KB3D_WRK_WoodFloorDamagedA.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
