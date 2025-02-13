@@ -1,0 +1,61 @@
+MetaFileClass {
+ Name "{0AB9C5A1DA705C9B}Assets/Structures/Props/Statue/Townstatue.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6312F096BF2AFD87}" {
+     SourceMaterial "Concrete"
+     AssignedMaterial "{0196039CFD9BB1E0}Assets/Structures/Props/Statue/Data/Concrete.emat"
+    }
+    MaterialAssignClass "{6312F096BF2B4F54}" {
+     SourceMaterial "BlueConcrete"
+     AssignedMaterial "{B95E5318D9128A39}Assets/Structures/Props/Statue/Data/BlueConcrete.emat"
+    }
+    MaterialAssignClass "{6312F096BF2B4F3E}" {
+     SourceMaterial "Cube_LOD0"
+     AssignedMaterial "{FFE18BBF8CD6F687}Assets/Structures/Props/Statue/Data/Cube_LOD0.emat"
+    }
+    MaterialAssignClass "{6312F096BF2B4F31}" {
+     SourceMaterial "YellowConcrete"
+     AssignedMaterial "{9B9253E8BECD015B}Assets/Structures/Props/Statue/Data/YellowConcrete.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Cube {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Colider {
+     LayerPreset "Interaction"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6312F096BF5AE5FE}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6312F096BF5BE1B5}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6312F096BF5BEA67}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6312F096BF5BEF4A}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6312F096BF5B16C0}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6312F096BF5B151E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
