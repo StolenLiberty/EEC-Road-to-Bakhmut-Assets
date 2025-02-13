@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1B975111BFF6BE02}Assets/Vehicles/Destroyed Vehicles/Data/Material_#25.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

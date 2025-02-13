@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{72207245C249B54A}Assets/Vehicles/Destroyed Vehicles/Data/MetalBase_baseColor.edds"
+ NMOMap "{BD12F6773BA20D9C}Assets/Vehicles/Destroyed Vehicles/Data/MetalBase_normal.edds"
+}
