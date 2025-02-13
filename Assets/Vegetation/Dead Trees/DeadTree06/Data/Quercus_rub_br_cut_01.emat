@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{8C92FAF30102E12A}Assets/Vegetation/Dead Trees/DeadTree06/Data/Quercus_rub_br_cut_01_baseColor.edds"
+ NMOMap "{ABC256CF7C92AD79}Assets/Vegetation/Dead Trees/DeadTree06/Data/Quercus_rub_br_cut_01_normal.edds"
+}

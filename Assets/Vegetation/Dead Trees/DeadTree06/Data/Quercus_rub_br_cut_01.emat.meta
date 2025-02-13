@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{08FF0D0FED1A4639}Assets/Vegetation/Dead Trees/DeadTree06/Data/Quercus_rub_br_cut_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

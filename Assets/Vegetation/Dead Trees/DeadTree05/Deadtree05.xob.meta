@@ -1,0 +1,53 @@
+MetaFileClass {
+ Name "{D78909F5DF1EC5DE}Assets/Vegetation/Dead Trees/DeadTree05/Deadtree05.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{62DB212BDB98B3D5}" {
+     SourceMaterial "Roots_DeadTrees_Logs_Branches_PreFinalBark_Dead_02_Mat1"
+     AssignedMaterial "{5BA7798C949E935E}Assets/Vegetation/Dead Trees/DeadTree03/Data/Roots_DeadTrees_Logs_Branches_PreFinalBark_Dead_02_Mat1.emat"
+    }
+    MaterialAssignClass "{63230529A5AF573F}" {
+     SourceMaterial "Roots_DeadTrees_Logs_Branches_PreFinalCap_Wood_Mat1"
+     AssignedMaterial "{78821009FF803EB6}Assets/Vegetation/Dead Trees/DeadTree03/Data/Roots_DeadTrees_Logs_Branches_PreFinalCap_Wood_Mat1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam DeadTree05 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_DeadTree05 {
+     LayerPreset "InteractionFireGeo"
+     SurfaceProperties {
+      "{86C00C393A493631}Common/Materials/Game/Wood/wood_30mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{62DB212BDBB7C2AD}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{62DB212BDBB7C3F6}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{62DB212BDBB7C3C2}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{62DB212BDBB7C398}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{62DB212BDBB7C373}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{62DB212BDBB7C34E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

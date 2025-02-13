@@ -1,0 +1,5 @@
+MatPBRBasic {
+ AOScale 0.8
+ BCRMap "{E33378DC2A164382}Assets/Vegetation/Dead Trees/DeadTree06/Data/Quercus_rub_dead_br_baseColor.edds"
+ NMOMap "{BA9A2E1661E227B9}Assets/Vegetation/Dead Trees/DeadTree06/Data/Quercus_rub_dead_br_normal.edds"
+}
