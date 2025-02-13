@@ -1,0 +1,8 @@
+GenericEntity : "{FA4B0C7DC5083D8D}Prefabs/Structures/BuildingParts/Ruins/CollapsedBuilding01Debris.et" {
+ ID "630AF1C4230DBE46"
+ coords -6.464 0.062 -1.69
+ angleX -2.196
+ angleY 82.401
+ angleZ 1.257
+ scale 0.613
+}

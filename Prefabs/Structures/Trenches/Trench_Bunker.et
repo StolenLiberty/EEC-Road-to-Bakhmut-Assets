@@ -1,0 +1,266 @@
+GenericEntity {
+ ID "62F13C94283285AD"
+ components {
+  MeshObject "{62F13C977E10D644}" {
+   Object "{8D1F12387A8CACFD}Assets/Structures/Trenches/UkrTrenchBunker.xob"
+  }
+  RigidBody "{62F13C97631CBD16}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 7254.216 143.138 5150.667
+ angleY 79.469
+ {
+  $grp StaticModelEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
+   {
+    ID "645933E9B0E1FBCD"
+    coords -2.279 -1.757 -2.57
+    angleY 92.47
+   }
+   {
+    ID "645933E9B0E1FBD2"
+    coords 1.837 -1.757 0.001
+    angleY -120
+   }
+  }
+  $grp GenericEntity : "{5E317DC74EA1F1A4}Prefabs/Props/Forest/WoodPile/WoodLog_01_B.et" {
+   {
+    ID "6462FE5525BAC808"
+    coords -2.154 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC81F"
+    coords -1.771 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC830"
+    coords -1.389 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC854"
+    coords -1 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC860"
+    coords -0.618 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC87A"
+    coords -0.238 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC897"
+    coords 0.144 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC8AD"
+    coords 2.079 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC8BA"
+    coords 2.461 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC8DB"
+    coords 1.289 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC8FB"
+    coords 1.671 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC9B6"
+    coords 3.215 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC9C7"
+    coords 2.851 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC9D2"
+    coords -3.309 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC9E3"
+    coords -2.927 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BAC9FF"
+    coords -2.536 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BACB09"
+    coords 0.903 0.162 -0.96
+   }
+   {
+    ID "6462FE5525BACB4D"
+    coords 0.521 0.162 -0.96
+   }
+  }
+  $grp GenericEntity : "{7F9923063FBB628B}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x51_200rnd.et" {
+   {
+    ID "645933E9B0E1FBA0"
+    coords -2.474 -1.757 -2.22
+   }
+   {
+    ID "645933E9B0E1FBAB"
+    coords -2.268 -4.547 -3.501
+    angleY 15
+   }
+   {
+    ID "645933E9B0E1FBBE"
+    coords -2.148 -4.547 -3.533
+    angleY 15
+   }
+  }
+  StaticModelEntity : "{ACB6EFBD551A30FE}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Ashtray_USSR_01.et" {
+   ID "645933E9B0E1FB2A"
+   coords -1.844 -1.771 0.607
+   angleY 180
+  }
+  $grp GenericEntity : "{AFD43C42CFAF65E3}Prefabs/Props/Military/AmmoBoxes/AmmoBox_556x45_840rnd.et" {
+   {
+    ID "645933E9B0E1FA3F"
+    coords 2.141 -1.743 -2.723
+    angleY 75
+   }
+   {
+    ID "645933E9B0E1FB26"
+    coords 1.969 -1.757 -2.822
+    angleY 60
+   }
+  }
+  $grp GenericEntity : "{BBAD313E424466CF}Prefabs/Props/Forest/WoodPile/WoodLog_01_C.et" {
+   {
+    ID "6462FE523B437AC7"
+    coords -0.258 0.154 1.763
+    angleY -90
+    scale 1.304
+   }
+   {
+    ID "6462FE5496F40475"
+    coords -0.258 0.15 -3.939
+    angleY -90
+    scale 1.304
+   }
+   {
+    ID "6462FE5496F40485"
+    coords -3.862 0.243 -1.059
+    angleZ -67.384
+    scale 0.897
+   }
+   {
+    ID "6462FE5496F40489"
+    coords -3.824 0.179 -1.5
+    scale 0.897
+   }
+   {
+    ID "6462FE5496F404AC"
+    coords 3.479 0.243 -1.059
+    angleY 180
+    angleZ -67.384
+    scale 0.897
+   }
+   {
+    ID "6462FE5496F404C4"
+    coords 3.441 0.179 -1.5
+    angleY -180
+    scale 0.897
+   }
+  }
+  $grp GenericEntity : "{D71209AE089D49A1}Prefabs/Props/Forest/WoodPile/WoodLog_01_Base.et" {
+   {
+    ID "6462FE5525BAC807"
+    coords -2.357 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC817"
+    coords -1.982 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC821"
+    coords -1.592 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC842"
+    coords -1.211 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC85F"
+    coords -0.821 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC86A"
+    coords -0.449 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC88C"
+    coords -0.059 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC89B"
+    coords 1.868 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC8B1"
+    coords 2.258 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC8D7"
+    coords 1.078 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC8E8"
+    coords 1.468 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC9AD"
+    coords 3.012 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC9BF"
+    coords 2.648 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC9CA"
+    coords -3.52 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC9DA"
+    coords -3.13 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BAC9F0"
+    coords -2.747 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BACB1A"
+    coords 0.7 0.162 -1.045
+   }
+   {
+    ID "6462FE5525BACB29"
+    coords 0.31 0.162 -1.045
+   }
+  }
+  $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
+   {
+    ID "645933E9B0E1FA0B"
+    coords -2.145 -1.771 0.714
+   }
+   {
+    ID "645933E9B0E1FA18"
+    coords -2.145 -1.617 0.714
+   }
+   {
+    ID "645933E9B0E1FBF4"
+    coords -1.596 -1.617 0.714
+   }
+   {
+    ID "645933E9B0E1FBFA"
+    coords -1.596 -1.771 0.714
+   }
+  }
+ }
+}

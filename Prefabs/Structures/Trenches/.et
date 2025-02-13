@@ -1,0 +1,16 @@
+GenericEntity {
+ ID "62CF0B4FB64383F1"
+ components {
+  MeshObject "{62CF0B4F58F21529}" {
+   Object "{95126E966B1D78D0}Assets/Structures/Trenches/Trench Deep Covered.xob"
+  }
+  RigidBody "{62CF0B4F4FE5581D}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{62CF0B4F450D29EB}" {
+  }
+ }
+ coords 507.843 143.123 2905.387
+}

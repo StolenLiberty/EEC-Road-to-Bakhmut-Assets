@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "631375DABF0F95AE"
+ components {
+  MeshObject "{6312F095635FA0CE}" {
+   Object "{0AB9C5A1DA705C9B}Assets/Structures/Props/Statue/Townstatue.xob"
+  }
+  RigidBody "{631375DA41BC2A95}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 5172.868 78.973 3509.284
+ angleY -78.909
+}

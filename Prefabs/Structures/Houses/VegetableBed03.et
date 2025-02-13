@@ -1,0 +1,49 @@
+StaticModelEntity : "{4D37CF893371E83B}Prefabs/Structures/Agriculture/VegetableBed_01/VegetableBed_01/VegetableBed_01_big.et" {
+ ID "F0DBA538AC2A0552"
+ coords 2744.963 -0.08 8453.44
+ angleY -60
+ {
+  $grp Tree : "{014BBD51756DB620}Prefabs/Vegetation/Vegetables/CabbageCrop_01.et" {
+   {
+    ID "631F380DC7F988E9"
+    coords -0.671 0.26 -0.329
+    angleY 60
+   }
+   {
+    ID "631F380DC7F988EE"
+    coords -1.656 0.259 -0.319
+    angleY 60
+   }
+   {
+    ID "631F380DC7F98CBE"
+    coords 1.61 0.26 -0.388
+    angleY 60
+   }
+   {
+    ID "631F380DC7F9A354"
+    coords 0.42 0.26 -0.333
+    angleY 60
+   }
+   {
+    ID "631F380DC7F9A355"
+    coords 1.655 0.259 0.542
+    angleY 60
+   }
+   {
+    ID "631F380DC7F9A356"
+    coords 0.466 0.26 0.598
+    angleY 60
+   }
+   {
+    ID "631F380DC7F9E67A"
+    coords -1.61 0.259 0.612
+    angleY 60
+   }
+   {
+    ID "631F380DC7F9E67B"
+    coords -0.624 0.259 0.602
+    angleY 60
+   }
+  }
+ }
+}

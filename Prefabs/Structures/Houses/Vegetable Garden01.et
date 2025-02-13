@@ -1,0 +1,75 @@
+StaticModelEntity : "{AD33F36CE7708EF1}Prefabs/Structures/Houses/VegetableBed01.et" {
+ ID "F0DBA538AC2A0552"
+ coords 2839.91 0 8395.333
+ angleX -3.124
+ angleY 19.367
+ angleZ 0.797
+ {
+  $grp StaticModelEntity : "{4D37CF893371E83B}Prefabs/Structures/Agriculture/VegetableBed_01/VegetableBed_01/VegetableBed_01_big.et" {
+   {
+    ID "631F380E36554921"
+    coords -5.93 0.198 0.953
+    {
+     Tree : "{CC86FA58287C61C8}Prefabs/Vegetation/Vegetables/PumpkinCrop_01_Line.et" {
+      ID "631F380E36554925"
+      coords 0.137 0.226 0.21
+      angleY 87.69
+     }
+    }
+   }
+   {
+    ID "631F380E3655DFA4"
+    coords -5.908 0.198 3.716
+    {
+     $grp Tree : "{014BBD51756DB620}Prefabs/Vegetation/Vegetables/CabbageCrop_01.et" {
+      {
+       ID "631F380E3655DFAA"
+       coords -1.61 0.259 0.612
+       angleY 60
+      }
+      {
+       ID "631F380E36560B59"
+       coords -0.624 0.259 0.602
+       angleY 60
+      }
+      {
+       ID "631F380E36560B5A"
+       coords 0.466 0.26 0.598
+       angleY 60
+      }
+      {
+       ID "631F380E36568D7A"
+       coords 1.655 0.259 0.542
+       angleY 60
+      }
+      {
+       ID "631F380E36568D7B"
+       coords 0.42 0.26 -0.333
+       angleY 60
+      }
+      {
+       ID "631F380E365700F2"
+       coords -0.671 0.26 -0.329
+       angleY 60
+      }
+      {
+       ID "631F380E36572914"
+       coords 1.61 0.26 -0.388
+       angleY 60
+      }
+      {
+       ID "631F380E3657A2B5"
+       coords -1.656 0.259 -0.319
+       angleY 60
+      }
+     }
+    }
+   }
+  }
+  StaticModelEntity : "{AD33F36CE7708EF1}Prefabs/Structures/Houses/VegetableBed01.et" {
+   ID "631F380E3657A2B2"
+   coords 0.249 0 3.213
+   angleY 0
+  }
+ }
+}

@@ -1,0 +1,7 @@
+ProbeVolume {
+ ID "645771E776ED1227"
+ Box BoundingVolume "{645771E706C3CAB4}" {
+  Size 6 2.5 4.5
+ }
+ BoxLerp 50
+}

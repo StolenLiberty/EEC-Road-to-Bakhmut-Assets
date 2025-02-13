@@ -1,0 +1,20 @@
+SCR_DestructibleBuildingEntity : "{C3BCE9690AC14EA4}Prefabs/Structures/Agriculture/Barn/Barn_E_01/Barn_E_01_Base.et" {
+ ID "4121E77AE187EDE5"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{631F380C0F81C61C}" {
+     SourceMaterial "Barn_E_01_Walls"
+     AssignedMaterial "{5902622EA46E5854}Assets/Structures/Agriculture/Barn/Barn_E_01/Data/Barn_E_01_Walls_White.emat"
+    }
+   }
+  }
+ }
+ coords 13.117 0.001 32.412
+ {
+  GenericEntity : "{549C6F5A63C9AA00}Prefabs/Structures/Agriculture/Barn/Barn_E_01/Furniture/Barn_E_01_furniture_01.et" {
+   ID "631F380C0F81C62E"
+   coords 0 0 0
+  }
+ }
+}

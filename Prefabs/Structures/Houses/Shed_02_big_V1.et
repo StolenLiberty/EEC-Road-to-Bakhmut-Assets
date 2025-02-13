@@ -1,0 +1,78 @@
+SCR_DestructibleBuildingEntity : "{8533568101A29BE3}Prefabs/Structures/Houses/Shed/Shed_02/Shed_02_Base.et" {
+ ID "51B481C189C0EB19"
+ SlotBoneMappings {
+  SlotBoneMappingObject "{631F380B95F8915E}" {
+   BonePrefix "socket_win_72x55"
+   Prefab "{BFD592C70054ECB8}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_72x55.et"
+  }
+  SlotBoneMappingObject "{631F380B95F89147}" {
+   BonePrefix "socket_win_142x90"
+   Prefab "{1D8048C69DB21CD4}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_142x90.et"
+  }
+  SlotBoneMappingObject "{631F380B95F89142}" {
+   BonePrefix "socket_door_ext_right"
+   Prefab "{6D83404953816F23}Prefabs/Structures/BuildingParts/Doors/DoorSet_Shed_02_R_EXT_B.et"
+  }
+ }
+ {
+  $grp Building : "{1D8048C69DB21CD4}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_142x90.et" {
+   {
+    ID "631F380B95F8CBB1"
+    components {
+     Hierarchy "{631F380B95F891BA}" {
+      Enabled 1
+      PivotID "socket_win_142x90_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "631F380B95F8CBB4"
+    components {
+     Hierarchy "{631F380B95F891AC}" {
+      Enabled 1
+      PivotID "socket_win_142x90_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{6D83404953816F23}Prefabs/Structures/BuildingParts/Doors/DoorSet_Shed_02_R_EXT_B.et" {
+   {
+    ID "631F380B95F8CBAA"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_ext_right_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "631F380B95F8CBAB"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_ext_right_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  Building : "{BFD592C70054ECB8}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_72x55.et" {
+   ID "631F380B95F8916C"
+   components {
+    Hierarchy "{631F380B95F891A1}" {
+     Enabled 1
+     PivotID "socket_win_72x55_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

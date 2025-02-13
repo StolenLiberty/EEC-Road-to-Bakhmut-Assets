@@ -1,0 +1,8 @@
+SCR_DestructibleBuildingEntity : "{BDB2B282A9B6E38B}Prefabs/Structures/Houses/FarmHouse_E_1L01.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{978F9944C865BC0E}Assets/Structures/Houses/destroyed house 20.xob"
+  }
+ }
+}

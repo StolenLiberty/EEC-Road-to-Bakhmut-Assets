@@ -1,0 +1,13 @@
+EnvironmentProbeEntity : "{EBA229C7F4072F49}Prefabs/Structures/Core/ProbeEnvBunker_base.et" {
+ ID "64576E6126406F6D"
+ coords -0.207 -0.467 -2.203
+ LVReflectionBrightness -20
+ LVDiffuseBrightness -20
+ DiffuseDesaturation 0
+ {
+  ProbeVolume : "{C8AA0F4B90F315E1}Prefabs/Structures/Core/VolumeProbe.et" {
+   ID "645771E763C62924"
+   coords 0 0 0
+  }
+ }
+}

@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "630B132AE13B12D8"
+ components {
+  MeshObject "{630B132A80AFB277}" {
+   Object "{6A1FC12C20AB7876}Assets/Structures/Houses/CollapsedGasStation.xob"
+  }
+  RigidBody "{630B132A8FEFDF6A}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

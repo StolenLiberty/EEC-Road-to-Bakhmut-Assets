@@ -1,0 +1,17 @@
+EnvironmentProbeEntity {
+ ID "64576E6126406F6D"
+ Priority 5
+ NearPlane 2
+ VisibleDistance 150
+ Rendering 37
+ InteriorProbe 1
+ LVReflectionBrightness -8
+ ReflectionDesaturation 0.5
+ LVDiffuseBrightness -5
+ DiffuseColor 0.141 0.144 0.147 1
+ DiffuseDesaturation 0.5
+ TopColorEV 4
+ TopAngleMax 72.581
+ TopAngleMin 53.13
+ TopAngleLerp 1
+}

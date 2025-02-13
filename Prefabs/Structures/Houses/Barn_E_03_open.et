@@ -1,0 +1,79 @@
+SCR_DestructibleBuildingEntity : "{63BD8E3A8AC76F88}Prefabs/Structures/Agriculture/Barn/Barn_E_03/Barn_E_03_Base.et" {
+ ID "F0DBA538AC2A0552"
+ coords 1311.974 0.001 1326.818
+ SlotBoneMappings {
+  SlotBoneMappingObject "{631F380C52D51541}" {
+   BonePrefix "socket_door_ext_big_left"
+   Prefab "{9D6C69116A1DE3B0}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_L_EXT_COV_01.et"
+  }
+  SlotBoneMappingObject "{631F380C52D5155E}" {
+   BonePrefix "socket_door_ext_big_right"
+   Prefab "{270728E69E8B2D7E}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_R_EXT_COV_01.et"
+  }
+ }
+ {
+  $grp GenericEntity : "{270728E69E8B2D7E}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_R_EXT_COV_01.et" {
+   {
+    ID "631F380C52D4BB5A"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_ext_big_right_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "631F380C52D4BB5B"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_ext_big_right_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{4B531C06224FA250}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_R_EXT_COV_02.et" {
+   ID "631F380C52D56FC1"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "socket_door_ext_small_left_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{77C8E173CDE720A7}Prefabs/Structures/Agriculture/Barn/Barn_E_03/Furniture/Barn_E_03_furniture_01.et" {
+   ID "631F380C52D56FC7"
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{9D6C69116A1DE3B0}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_L_EXT_COV_01.et" {
+   {
+    ID "631F380C52D51538"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_ext_big_left_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "631F380C52D56FCD"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_ext_big_left_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}

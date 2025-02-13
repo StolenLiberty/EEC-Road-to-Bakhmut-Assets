@@ -1,0 +1,5 @@
+SCR_DestructibleBuildingEntity : "{165E069CD712902F}Prefabs/Structures/Houses/Village/House_Village_E_1I01/House_Village_E_1I01_ruin.et" {
+ ID "F0DBA538AC2A0552"
+ coords 5032.89 0 2822.375
+ angleY -158.383
+}

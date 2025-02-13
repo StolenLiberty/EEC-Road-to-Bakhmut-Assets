@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{36B34DBC3C9B62FF}Prefabs/Structures/Agriculture/CowShed/CowShed_E_01/CowShed_E_01_short.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

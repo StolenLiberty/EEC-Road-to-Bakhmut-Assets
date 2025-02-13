@@ -1,0 +1,27 @@
+SCR_DestructibleBuildingEntity : "{4A69647388F17A23}Prefabs/Structures/Houses/Shed/Shed_01/Shed_01_Base.et" {
+ ID "591B677B2A5ECC15"
+ components {
+  DoorSlotComponent "{631F380BA98E2E85}" {
+   components {
+    NavmeshCustomLinkComponent "{631F380BA98E2E78}" {
+     LinkType NavmeshDoorLink "{631F380BA98E2E7F}" {
+      "Navmesh setting presets" {
+       NavmeshCustomLinkSetting "{631F380BA98E2E7E}" {
+        ProjectPresets {
+         NavmeshCustomLinkPreset "{631F380BA98E2E7C}" {
+          ProjectName "Soldiers"
+          AreaType "Fence"
+         }
+        }
+        BeginPoint -1.2 0 2.5
+        EndPoint -1.2 0 0.5
+       }
+      }
+     }
+    }
+   }
+   DoorMirrored 1
+  }
+ }
+ coords 2.331 2.739 3.04
+}

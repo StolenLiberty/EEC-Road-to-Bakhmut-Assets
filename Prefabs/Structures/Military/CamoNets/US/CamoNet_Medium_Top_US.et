@@ -1,0 +1,8 @@
+GenericEntity : "{B4C9E232F5E221BB}Prefabs/Structures/Military/CamoNets/CamoNet_Medium_Top_01_base.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RigidBody "{52F0B4B05F6D4CE2}" {
+   Layers 2
+  }
+ }
+}

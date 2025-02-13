@@ -1,0 +1,77 @@
+GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ ID "F0DBA538AC2A0552"
+ coords 5349.752 68.529 2400.001
+ angleX -3.573
+ angleY -0.112
+ angleZ 1.793
+ {
+  $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   {
+    ID "646D076EB50EBA79"
+    coords -1.206 0 -0
+   }
+   {
+    ID "646D076EB50F18D4"
+    coords 1.196 0 -0
+   }
+  }
+  $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+   {
+    ID "646D076EB50EBA7D"
+    coords 1.174 0.046 -0.034
+    angleX -0.001
+    angleY -86.809
+    angleZ 0.019
+   }
+   {
+    ID "646D076EB50EBA7E"
+    coords 1.175 0.087 0.802
+    angleX 1.809
+    angleY -89.89
+    angleZ -0.029
+   }
+   {
+    ID "646D076EB50EBDB1"
+    coords 1.117 0.095 -1.01
+    angleX -0.202
+    angleY -98.479
+    angleZ 0.18
+   }
+   {
+    ID "646D076EB50EBDBC"
+    coords -0.226 0.092 -1.075
+    angleX -1.788
+    angleY -92.508
+    angleZ 0.57
+   }
+   {
+    ID "646D076EB50F0D08"
+    coords -1.32 0.088 0.77
+    angleX -0.451
+    angleY -179.708
+    angleZ 0.156
+   }
+   {
+    ID "646D076EB50F18D5"
+    coords -1.33 0.093 -0.532
+    angleX 0.478
+    angleY -179.587
+    angleZ 1.814
+   }
+   {
+    ID "646D076EB50F3AD1"
+    coords -0.266 0.084 -0.137
+    angleX -1.869
+    angleY -79.973
+    angleZ 0.168
+   }
+   {
+    ID "646D076EB50F3AD6"
+    coords -0.252 0.086 0.769
+    angleX -0.147
+    angleY -88.659
+    angleZ -0.453
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+StaticModelEntity : "{24FB8B75575196B4}Prefabs/Structures/Houses/VegetableBed03.et" {
+ ID "F0DBA538AC2A0552"
+ coords 3007.49 0.03 8345.86
+ angleY -68.232
+ {
+  $grp StaticModelEntity : "{24FB8B75575196B4}Prefabs/Structures/Houses/VegetableBed03.et" {
+   {
+    ID "631F380F9E127B3A"
+    coords 0.002 0 2.592
+    angleY 0
+   }
+   {
+    ID "631F380F9E127B3C"
+    coords -0.002 -0 -2.686
+    angleY 0
+   }
+  }
+ }
+}

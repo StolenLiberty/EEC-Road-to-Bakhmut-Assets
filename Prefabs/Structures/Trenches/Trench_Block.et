@@ -1,0 +1,14 @@
+GenericEntity {
+ ID "62F13C941C1466F3"
+ components {
+  MeshObject "{62F13C99F2BE9706}" {
+   Object "{DC475FA4668D893D}Assets/Structures/Trenches/UkrTrenchBlock.xob"
+  }
+  RigidBody "{62F13C99EEC71AA7}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 4591.698 175.139 4611.312
+}

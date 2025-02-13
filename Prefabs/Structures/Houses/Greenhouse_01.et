@@ -1,0 +1,14 @@
+SCR_DestructibleBuildingEntity : "{264F14BB6F1309F3}Prefabs/Structures/Agriculture/Greenhouse/Greenhouse_01/Greenhouse_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ coords 3.926 3.1 2.098
+ {
+  GenericEntity {
+   ID "55EE9070D3C970DF"
+   components {
+    MeshObject "{51C4DA208DB0E200}" {
+     Object "{B8B4984DCA92026D}Assets/Structures/BuildingsParts/Windows/Glass_GreenHouse_01_Left_119x44/Glass_GreenHouse_01_Left_119x44.xob"
+    }
+   }
+  }
+ }
+}
