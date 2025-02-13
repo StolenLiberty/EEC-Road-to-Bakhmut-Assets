@@ -1,0 +1,9 @@
+GenericEntity : "{E35DF0C2D7575626}Prefabs/Structures/BuildingParts/Furniture/DestroyedFridge.et" {
+ ID "630AF1C563373726"
+ components {
+  MeshObject "{630AF1C505C3BBF1}" {
+   Object "{2A76788929E5F099}Assets/Structures/BuildingsParts/Funiture/DestroyedSofa.xob"
+  }
+ }
+ coords 29.269 1 45.382
+}

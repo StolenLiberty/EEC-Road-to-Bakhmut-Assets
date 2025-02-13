@@ -1,0 +1,14 @@
+GenericEntity {
+ ID "630AF1C563373726"
+ components {
+  MeshObject "{630AF1C505C3BBF1}" {
+   Object "{E8AB736ED91B1D86}Assets/Structures/BuildingsParts/Funiture/DestroyedFridge.xob"
+  }
+  RigidBody "{630B13247125A089}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 31.299 1 47.877
+}

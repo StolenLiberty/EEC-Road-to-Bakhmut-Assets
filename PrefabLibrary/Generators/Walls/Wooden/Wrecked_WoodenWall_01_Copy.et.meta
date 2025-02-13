@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6C7B4D5105E44853}PrefabLibrary/Generators/Walls/Wooden/Wrecked_WoodenWall_01_Copy.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

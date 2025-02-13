@@ -1,0 +1,34 @@
+GenericEntity {
+ ID "62F7212AFCE03CA6"
+ components {
+  MeshObject "{62F7212BDF2A3C3B}" {
+   Object "{5BA150EE0D83AC79}Assets/Structures/BuildingsParts/Windows/Win_ShopHouse_E_A_420x275_2_B.xob"
+  }
+ }
+ coords 4467.64 57.334 8428.142
+ scale 0.482
+ {
+  $grp GenericEntity : "{01555BEA32ADC8D6}Prefabs/Structures/BuildingParts/Windows/Glass_200x260/Glass_200x260.et" {
+   {
+    ID "62F7212AFCE03C9F"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Object "{79FDCA20D97CDAFC}Assets/Structures/BuildingsParts/Windows/Glass_200x260/Dst/Glass_04_200x260_dst.xob"
+     }
+    }
+    coords 1.013 0.027 -0.027
+    scale 0.97
+   }
+   {
+    ID "62F7212AFCE0418E"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Object "{9C9BB81B9D65D44B}Assets/Structures/BuildingsParts/Windows/Glass_200x260/Dst/Glass_02_200x260_dst.xob"
+     }
+    }
+    coords -1.029 0.027 -0.023
+    scale 0.97
+   }
+  }
+ }
+}

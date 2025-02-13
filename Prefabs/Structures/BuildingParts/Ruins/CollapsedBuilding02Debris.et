@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "630B1320C4BC6B15"
+ components {
+  MeshObject "{630B132037CAB84A}" {
+   Object "{DDE0B5D92981F1EE}Assets/Structures/Houses/CollapsedBuilding02Debris.xob"
+  }
+  RigidBody "{630B13203EFD5DE9}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

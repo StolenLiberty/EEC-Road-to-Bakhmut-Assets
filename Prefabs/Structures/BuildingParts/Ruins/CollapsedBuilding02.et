@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "630B1320C7CAF4ED"
+ components {
+  MeshObject "{630B1323CEB626D1}" {
+   Object "{F95B3CDC8533963E}Assets/Structures/Houses/CollapsedBuilding02.xob"
+  }
+ }
+}

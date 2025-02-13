@@ -1,0 +1,47 @@
+GenericEntity {
+ ID "62F573258F32E1D7"
+ components {
+  MeshObject "{62F573257590BED7}" {
+   Object "{3B92FBB2F9A81FC3}Assets/Structures/BuildingsParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_130x142_B.xob"
+   Materials {
+    MaterialAssignClass "{62F573256411F1BB}" {
+     SourceMaterial "Color_palette_02"
+     AssignedMaterial "{869BA64A79059D98}Assets/Structures/BuildingsParts/Windows/Data/Win_FishermanShed_01_MLOD_Dark.emat"
+    }
+    MaterialAssignClass "{62F573256411F193}" {
+     SourceMaterial "Win_HouseWooden_E"
+     AssignedMaterial "{29C3A9756D5A08A9}Assets/Structures/BuildingsParts/Windows/Data/Win_FishermanShed_01_EXT_Dark.emat"
+    }
+   }
+  }
+  RigidBody "{62F573256DBB5955}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 4453.911 63.625 8405.345
+ angleY 180
+ {
+  $grp GenericEntity : "{206A2CA34D694ABB}Prefabs/Structures/BuildingParts/Windows/Glass_54x126/Glass_54x126.et" {
+   {
+    ID "62F573258F32970C"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Object "{7EAA1EE6FCF7415C}Assets/Structures/BuildingsParts/Windows/Glass_54x126/Dst/Glass_01_54x126_dst.xob"
+     }
+    }
+    coords -0.311 -0.003 -0.005
+    angleY 180
+   }
+   {
+    ID "62F573258F32E122"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Object "{7EAA1EE6FCF7415C}Assets/Structures/BuildingsParts/Windows/Glass_54x126/Dst/Glass_01_54x126_dst.xob"
+     }
+    }
+    coords 0.31 -0.003 -0.028
+   }
+  }
+ }
+}

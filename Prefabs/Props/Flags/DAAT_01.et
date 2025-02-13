@@ -1,0 +1,20 @@
+GenericEntity {
+ ID "64483E6580F7841C"
+ components {
+  MeshObject "{64483E6557AEA286}" {
+   Object "{64FBA9296CACE2DC}Assets/Props/Flags/FlagDAAT.xob"
+  }
+  RigidBody "{64483E65BD18AB31}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{64483E6594C8D81E}" {
+  }
+  Hierarchy "{64483E6597562165}" {
+  }
+ }
+ coords -12.598 -1.686 1.438
+ angleY -90
+ scale 2
+}

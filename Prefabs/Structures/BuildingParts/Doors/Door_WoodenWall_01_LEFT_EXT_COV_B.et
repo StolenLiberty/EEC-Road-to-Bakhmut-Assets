@@ -1,0 +1,94 @@
+GenericEntity : "{F1793FE006FDF888}Prefabs/Structures/BuildingParts/Doors/Door_Base.et" {
+ ID "627CE52CCB2692FE"
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   Enabled 0
+   AngleRange -90
+   SoundFilename "{ADA3FF564F687A49}Sounds/Structures/_ShaderData/Doors/Structures_Door_Wooden_Large_NoHandle.acp"
+   SoundPoints {
+    SoundPointEventInfo "{633913052DE4C4C1}" {
+     Offset 2.1853 1.4153 0
+    }
+    SoundPointEventInfo "{633913052DE4C4BE}" {
+     Offset 2.1853 1.4153 0
+     Event SOUND_OPEN_FINISH
+    }
+    SoundPointEventInfo "{633913052DE4C4B2}" {
+     Offset 2.1853 1.4153 0
+     Event SOUND_CLOSE_START
+    }
+    SoundPointEventInfo "{633913052DE4C4B0}" {
+     Offset 2.1853 1.4153 0
+     Event SOUND_CLOSE_FINISH
+    }
+    SoundPointEventInfo "{633913052DE4C4B6}" {
+     Offset 0 1.0885 0
+     Event SOUND_MOVEMENT
+    }
+   }
+   TestContacts 1
+   TestCollider "UBX_WoodenWall_01_Gate_Right"
+  }
+  MeshObject "{309366462BDAFB24}" {
+   Object "{403C3F1083E2685F}Assets/Structures/BuildingsParts/Doors/Door_WoodenWall_01/Door_WoodenWall_01_LEFT_EXT_COV_B.xob"
+  }
+  NavmeshCustomLinkComponent "{559E7AC91AFA25BA}" {
+   LinkType NavmeshDoorLink "{559E7AC9151D5867}" {
+    "Navmesh setting presets" {
+     NavmeshCustomLinkSetting "{5C90F7CD794C3D21}" {
+      BeginPoint 1.8 0 -2
+      EndPoint 1.8 0 2
+     }
+    }
+   }
+  }
+  NavmeshCustomLinkComponent "{633913052DE4C4A7}" {
+   LinkType NavmeshJumpLink "{633913052DE4C4A5}" {
+    "Navmesh setting presets" {
+     NavmeshCustomLinkSetting "{633913052DE4C4A4}" {
+      ProjectPresets {
+       NavmeshCustomLinkPreset "{633913052DE4C498}" {
+        ProjectName "Soldiers"
+        AreaType "Fence"
+       }
+      }
+      BeginPoint 1 0 -1.5
+      EndPoint 1 0 1.5
+      Radius 0.5
+     }
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{5534CAAEEB088884}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 800
+   m_fDamageThresholdMaximum 30000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{633913052DE4C496}" {
+     m_ModelPrefabs {
+      "{403C3F1083E2685F}Assets/Structures/BuildingsParts/Doors/Door_WoodenWall_01/Door_WoodenWall_01_LEFT_EXT_COV_B.xob"
+     }
+     m_fMass 30
+     m_fDamageToImpulse 1
+     m_fRandomVelocityLinear 1
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+    }
+    SCR_ParticleSpawnable "{633913052DE4C48B}" {
+     m_Particle "{CEE298DA573A1161}Particles/Props/Dest_WoodenWall.ptc"
+     m_bDirectional 0
+    }
+   }
+   m_bDeleteAfterFinalPhase 0
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   ActionContexts {
+    UserActionContext "{50888D37F529F720}" {
+     Position PointInfo "{50888D37F0EB77E0}" {
+      Offset 1.5 1 0
+     }
+    }
+   }
+  }
+ }
+ coords 0.14 0.768 10.354
+}

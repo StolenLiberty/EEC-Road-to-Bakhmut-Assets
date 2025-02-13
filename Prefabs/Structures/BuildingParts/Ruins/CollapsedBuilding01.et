@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "630AF1C4242F33DA"
+ components {
+  MeshObject "{630AF1DBF4C8FF74}" {
+   Object "{6045854598D4A7AE}Assets/Structures/Houses/CollapsedBuilding01.xob"
+  }
+  RigidBody "{630AF1DBCEF1D365}" {
+   Layers 10502146
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

@@ -1,0 +1,29 @@
+WallGeneratorEntity {
+ ID "62E201B8D2EF6F67"
+ coords 4116.36 49.662 8193.523
+ Flags 1048579
+ LastObject "{0C8EB9A7C3BAFC35}PrefabLibrary/Walls/Metal/MetalWall_01_3m_End.et"
+ LastObjectPrePadding -0.063
+ m_aWallGroups {
+  WallLengthGroup "{62E201B8478E7513}" {
+   m_aWallPrefabs {
+    WallWeightPair "{62E201B84C537CA2}" {
+     m_sWallAsset "{9D269652A8367F1C}PrefabLibrary/Walls/Metal/MetalWall_01_9m.et"
+    }
+    WallWeightPair "{62E201B84C3EBD9C}" {
+     m_sWallAsset "{D30897E192F2B1C2}PrefabLibrary/Walls/Metal/MetalWall_01_3m_D.et"
+    }
+    WallWeightPair "{62E201B84DCB4E4E}" {
+     m_sWallAsset "{459ADC9A4891BAA6}PrefabLibrary/Walls/Metal/MetalWall_01_D.et"
+    }
+   }
+  }
+  WallLengthGroup "{62E201B8474F20B9}" {
+   m_aWallPrefabs {
+    WallWeightPair "{62E201B8B9807B38}" {
+     m_sWallAsset "{0C7021381E5A81C9}PrefabLibrary/Walls/Metal/MetalWall_01_3m.et"
+    }
+   }
+  }
+ }
+}

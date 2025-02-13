@@ -1,0 +1,48 @@
+WallGeneratorEntity {
+ ID "62D95193CA7416C9"
+ coords 319.182 137.801 2086.516
+ Flags 1048579
+ m_bEnableMiddleObject 0
+ LastObject "{637309ECFCA3BCC4}PrefabLibrary/Walls/Wooden/WoodenWall_02_Pole.et"
+ LastObjectPrePadding -0.019
+ PrePadding -0.03
+ PostPadding -0.019
+ m_aWallGroups {
+  WallLengthGroup "{62D95193CA7416D0}" {
+   m_aWallPrefabs {
+    WallWeightPair "{62D95193CA741721}" {
+     m_sWallAsset "{6F094124762EDACB}PrefabLibrary/Walls/Wooden/WoodenWall_02_4m_B_green.et"
+    }
+    WallWeightPair "{62D95193CA741728}" {
+     m_sWallAsset "{46096AB72A1D6DF2}PrefabLibrary/Walls/Wooden/WoodenWall_02_D_green.et"
+    }
+    WallWeightPair "{62D95193CA74172D}" {
+     m_sWallAsset "{6F094124762EDACB}PrefabLibrary/Walls/Wooden/WoodenWall_02_4m_B_green.et"
+    }
+    WallWeightPair "{62D95193CA741733}" {
+     m_sWallAsset "{46096AB72A1D6DF2}PrefabLibrary/Walls/Wooden/WoodenWall_02_D_green.et"
+    }
+    WallWeightPair "{62D95193CA741731}" {
+     m_sWallAsset "{46096AB72A1D6DF2}PrefabLibrary/Walls/Wooden/WoodenWall_02_D_green.et"
+    }
+   }
+  }
+  WallLengthGroup "{62D95193CA741737}" {
+   m_aWallPrefabs {
+    WallWeightPair "{62D95193CA741736}" {
+     m_sWallAsset "{46096AB72A1D6DF2}PrefabLibrary/Walls/Wooden/WoodenWall_02_D_green.et"
+    }
+    WallWeightPair "{62D95193CA741735}" {
+     m_sWallAsset "{6F094124762EDACB}PrefabLibrary/Walls/Wooden/WoodenWall_02_4m_B_green.et"
+    }
+   }
+  }
+  WallLengthGroup "{62D95193CA741734}" {
+   m_aWallPrefabs {
+    WallWeightPair "{62D95193CA74173A}" {
+     m_sWallAsset "{55D9F45F6984BF6A}PrefabLibrary/Walls/Wooden/WoodenWall_02_2m_green.et"
+    }
+   }
+  }
+ }
+}

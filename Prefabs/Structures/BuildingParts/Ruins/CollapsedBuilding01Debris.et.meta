@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FA4B0C7DC5083D8D}Prefabs/Structures/BuildingParts/Ruins/CollapsedBuilding01Debris.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

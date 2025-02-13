@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FCBD2EF76EC54FFB}Prefabs/Structures/BuildingParts/Doors/Door_WoodenWall_01_LEFT_EXT_COV_B.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

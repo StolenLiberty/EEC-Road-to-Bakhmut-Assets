@@ -1,0 +1,52 @@
+WallGeneratorEntity {
+ ID "62D957B37646F82D"
+ coords 319.182 137.801 2086.516
+ Flags 1048579
+ m_bEnableMiddleObject 0
+ FirstObject "{0BF5BAC2490F82D7}PrefabLibrary/Walls/Brick/BrickWallOld_01_End.et"
+ LastObject "{DA04A1007A31B550}PrefabLibrary/Walls/Brick/BrickWallOld_01_Start.et"
+ LastObjectPrePadding -0.019
+ PrePadding -0.03
+ PostPadding -0.019
+ m_aWallGroups {
+  WallLengthGroup "{62D957B29B597BEF}" {
+   m_aWallPrefabs {
+    WallWeightPair "{554ACB3419220874}" {
+     m_sWallAsset "{01079F398B16C794}PrefabLibrary/Walls/Brick/BrickWallOld_01_D.et"
+    }
+    WallWeightPair "{554ACB341A9F2FB3}" {
+     m_sWallAsset "{33D1AA7D59DCC549}PrefabLibrary/Walls/Brick/BrickWallOld_01_4m_B.et"
+    }
+    WallWeightPair "{554ACB341BF9D5B3}" {
+     m_sWallAsset "{01079F398B16C794}PrefabLibrary/Walls/Brick/BrickWallOld_01_D.et"
+     m_fWeight 0.75
+    }
+    WallWeightPair "{554ACB3414987E86}" {
+     m_sWallAsset "{01079F398B16C794}PrefabLibrary/Walls/Brick/BrickWallOld_01_D.et"
+     m_fWeight 0.25
+    }
+    WallWeightPair "{55547D01F49FB9BC}" {
+     m_sWallAsset "{DA04A1007A31B550}PrefabLibrary/Walls/Brick/BrickWallOld_01_Start.et"
+     m_fWeight 0.75
+    }
+   }
+  }
+  WallLengthGroup "{62D957B29B3D6ABB}" {
+   m_aWallPrefabs {
+    WallWeightPair "{554ACB340225B42F}" {
+     m_sWallAsset "{01079F398B16C794}PrefabLibrary/Walls/Brick/BrickWallOld_01_D.et"
+    }
+    WallWeightPair "{55547DF18C245FF1}" {
+     m_sWallAsset "{01079F398B16C794}PrefabLibrary/Walls/Brick/BrickWallOld_01_D.et"
+    }
+   }
+  }
+  WallLengthGroup "{62D957B29B11A0D9}" {
+   m_aWallPrefabs {
+    WallWeightPair "{554ACB347DF14EAF}" {
+     m_sWallAsset "{750F8E2389AB9149}PrefabLibrary/Walls/Brick/BrickWallOld_01_2m.et"
+    }
+   }
+  }
+ }
+}

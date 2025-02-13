@@ -1,0 +1,20 @@
+GenericEntity {
+ ID "62CE13EAF7FDF534"
+ components {
+  MeshObject "{62CE13EA9B154777}" {
+   Object "{79E6801A6E0DB673}Assets/Structures/Ruins/destroyed house 5.xob"
+  }
+  RigidBody "{62CE13EA8D5EB0FA}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{62CE13EA83C05BEF}" {
+  }
+ }
+ coords 509.653 120.564 1839.625
+ angleX 0.084
+ angleY -75
+ angleZ 3.306
+ scale 2.09
+}
