@@ -1,0 +1,22 @@
+GameProject {
+ ID "EECMapAssets"
+ GUID "63305B18273159B0"
+ TITLE "EEC Map Assets"
+ Dependencies {
+  "630C5E90EAFE5902"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

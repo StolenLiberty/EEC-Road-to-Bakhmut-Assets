@@ -1,0 +1,8 @@
+MatPBRMulti {
+ GlobalLayerAngleStart 1
+ GlobalLayerAngleEnd 0
+ GlobalMCRMap "{C5C99C43E5E13307}Assets/Props/Flags/Data/Flag_DAAT_BaseColor.edds"
+ MaskMap "{AFD2F2B73FA51102}Assets/Props/Flags/Data/Flag_3DMA_02_Roughness.edds"
+ GlobalAOMap "{9BB3075A3C2C14D8}Assets/Props/Flags/Data/Flag_3DMA_02_AO.edds"
+ GlobalNMOMap "{5A12612B660E4184}Assets/Props/Flags/Data/Flag_3DMA_02_Normal.edds"
+}

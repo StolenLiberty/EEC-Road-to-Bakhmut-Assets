@@ -1,0 +1,6 @@
+MatPBRMulti {
+ Color 0.515 0.515 0.515 1
+ GlobalMCRMap "{46193BFF1B752DB8}Assets/Props/Flags/Data/Flag_DAAT_2_BaseColor.edds"
+ MaskMap "{AFD2F2B73FA51102}Assets/Props/Flags/Data/Flag_3DMA_02_Roughness.edds"
+ GlobalNMOMap "{5A12612B660E4184}Assets/Props/Flags/Data/Flag_3DMA_02_Normal.edds"
+}
