@@ -1,0 +1,5 @@
+MatPBRBasic {
+ AOScale 0.5
+ BCRMap "{E79D695BA374D933}Assets/Vehicles/Destroyed Vehicles/Data/caprice_low_Material_u1_v1_Base_Color.edds"
+ NMOMap "{52B8113E7AA55518}Assets/Vehicles/Destroyed Vehicles/Data/caprice_low_Material_u1_v1_Normal_OpenGL.edds"
+}

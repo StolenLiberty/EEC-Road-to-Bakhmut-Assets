@@ -1,0 +1,6 @@
+MatPBRBasic {
+ MetalnessScale 5
+ AOScale 0.347
+ BCRMap "{BD502FAA8E4309F8}Assets/Vehicles/Destroyed Vehicles/Data/20220801_T90A_Letna_Prague-150k_u0_v0_diffuse-edit.edds"
+ NMOMap "{C0CE532B7DCF6989}Assets/Vehicles/Destroyed Vehicles/Data/20220801_T90A_Letna_Prague-150k_u0_v0_normal-edit.edds"
+}

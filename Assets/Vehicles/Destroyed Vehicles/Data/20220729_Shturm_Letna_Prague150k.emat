@@ -1,0 +1,5 @@
+MatPBRBasic {
+ AOScale 0.3
+ BCRMap "{1B391BAEBD8520E7}Assets/Vehicles/Destroyed Vehicles/Data/20220729_Shturm_Letna_Prague-150k_u0_v0_diffuse.edds"
+ NMOMap "{63A5794CCDD3EAFA}Assets/Vehicles/Destroyed Vehicles/Data/20220729_Shturm_Letna_Prague-150k_u0_v0_normal-8k.edds"
+}

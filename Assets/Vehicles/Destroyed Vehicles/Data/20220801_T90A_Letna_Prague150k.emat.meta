@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{244A604778CD7617}Assets/Vehicles/Destroyed Vehicles/Data/20220801_T90A_Letna_Prague150k.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
