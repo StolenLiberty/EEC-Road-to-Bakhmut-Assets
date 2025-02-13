@@ -1,0 +1,8 @@
+Tree : "{E654FA522FE59C67}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_base.et" {
+ ID "0F2AA6B42CA78628"
+ MaxHealth 5000
+ "Kinetic multiplier" 1
+ "Fragmentation multiplier" 5
+ "Explosive multiplier" 3
+ "Incendiary multiplier" 5
+}

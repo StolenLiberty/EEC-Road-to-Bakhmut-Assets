@@ -1,0 +1,9 @@
+Tree : "{4C2658053472F98B}Prefabs/Vegetation/Tree/t_malus_domestica/t_malus_domestica_base.et" {
+ ID "27132768B0952045"
+ coords 108.765 -82.415 -94.306
+ MaxHealth 3000
+ "Kinetic multiplier" 1
+ "Fragmentation multiplier" 5
+ "Explosive multiplier" 3
+ "Incendiary multiplier" 5
+}

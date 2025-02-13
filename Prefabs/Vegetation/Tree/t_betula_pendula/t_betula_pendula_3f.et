@@ -1,0 +1,7 @@
+Tree : "{DC8C1B19C5E6037B}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_base.et" {
+ ID "0F2AA6B42CA78628"
+ "Kinetic multiplier" 1
+ "Fragmentation multiplier" 5
+ "Explosive multiplier" 3
+ "Incendiary multiplier" 5
+}
