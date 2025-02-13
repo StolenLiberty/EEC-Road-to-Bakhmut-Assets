@@ -1,0 +1,793 @@
+ForestGeneratorEntity {
+ ID "63035510EDE2A3B6"
+ coords 465.473 141.735 2378.176
+ Flags 1048579
+ GeneratorType GeneratorTypeForest "{62D2380EBB76C9C4}" {
+ }
+ m_Color 0 1 0 1
+ m_bAvoidObjects 1
+ m_bAvoidRoads 1
+ m_bAvoidRivers 1
+ m_bAvoidPowerLines 1
+ m_iSeed 48
+ m_aLevels {
+  ForestGeneratorTopLevel Top_Level {
+   m_aTreeGroups {
+    TreeGroupClass Capinus {
+     m_aTrees {
+      ForestGeneratorTreeTall Tree1 {
+       m_fMinScale 0.95
+       m_fMaxScale 1.3
+       m_Prefab "{99D77B10B980D106}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_1f.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+       m_fTopDistance 2
+      }
+      ForestGeneratorTreeTall Tree2 {
+       m_Prefab "{00C9C289A467E096}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2f.et"
+       m_fMidDistance 1.5
+       m_fTopDistance 2
+      }
+      ForestGeneratorTreeTall Tree3 {
+       m_fMinScale 0.6
+       m_fMaxScale 0.9
+       m_Prefab "{FE0BD218E0E417A3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_3d.et"
+       m_fBotDistance 0.5
+       m_fWeight 0.002
+       m_fMidDistance 2.5
+       m_fTopDistance 2.5
+      }
+      ForestGeneratorTreeTall Deadtree3 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{F77380489DDF2F93}Prefabs/Vegetation/Tree/Dead tree12.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+       m_fTopDistance 2
+      }
+      ForestGeneratorTreeTall Deadtree4 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{9B27B4A8211BA0BD}Prefabs/Vegetation/Tree/Dead tree11.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+       m_fTopDistance 2
+      }
+      ForestGeneratorTreeTall Deadtree5 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{2F9038EFFAD2E6CD}Prefabs/Vegetation/Tree/Dead tree_1.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+       m_fTopDistance 2
+      }
+     }
+    }
+   }
+   m_fDensity 325
+  }
+  ForestGeneratorOutline Outline {
+   m_aTreeGroups {
+    TreeGroupClass Tree1 {
+     m_aTrees {
+      ForestGeneratorTreeTall Tree1 {
+       m_fMinScale 0.7
+       m_fMaxScale 0.95
+       m_Prefab "{C44F51A81AC2B063}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et"
+       m_fRandomPitchAngle 1
+       m_fRandomRollAngle 1
+       m_fWeight 0
+       m_fMidDistance 3
+       m_fTopDistance 4
+      }
+      ForestGeneratorTreeTall Tree2 {
+       m_fMinScale 0.7
+       m_fMaxScale 0.9
+       m_Prefab "{B3453920EE605F13}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2s.et"
+       m_fRandomPitchAngle 1
+       m_fRandomRollAngle 1
+       m_fWeight 1.2
+       m_fMidDistance 2.5
+       m_fTopDistance 3
+      }
+      ForestGeneratorTreeMiddle Tree3 {
+       m_fMinScale 0.65
+       m_fMaxScale 0.9
+       m_Prefab "{99D77B10B980D106}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_1f.et"
+       m_fBotDistance 0.75
+       m_fRandomPitchAngle 1.5
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle Deadtree1 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{F738512E835BF891}Prefabs/Vegetation/Tree/Dead tree7.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle Deadtree2 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{9B6C65CE3F9F77BF}Prefabs/Vegetation/Tree/Dead tree4.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle Deadtree3 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{8D501B5E6982EAFF}Prefabs/Vegetation/Tree/Dead tree9.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree01 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{67211F5CA4218997}Prefabs/Vegetation/Shelled Trees/Deadtree01.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree02 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{0B752BBC18E506B9}Prefabs/Vegetation/Shelled Trees/Deadtree02.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree03 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{EEE96745140091D2}Prefabs/Vegetation/Shelled Trees/Deadtree03.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree04 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{AFC7B25B641AB583}Prefabs/Vegetation/Shelled Trees/Deadtree03_180.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree05 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{89AA0732E238A17A}Prefabs/Vegetation/Shelled Trees/Deadtree03_270.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree06 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{78227C85A1D04D88}Prefabs/Vegetation/Shelled Trees/Deadtree03_90.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree07 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{D3DD427D616C18E5}Prefabs/Vegetation/Shelled Trees/Deadtree04.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree08 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{E6D4E83F47D50AA8}Prefabs/Vegetation/Shelled Trees/Deadtree04_180.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree09 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{C0B95D56C1F71E51}Prefabs/Vegetation/Shelled Trees/Deadtree04_270.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree10 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{AAA44C8338A7E98A}Prefabs/Vegetation/Shelled Trees/Deadtree04_90.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree11 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{36410E846D898F8E}Prefabs/Vegetation/Shelled Trees/Deadtree05.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree12 {
+       m_fMinScale 0.7
+       m_fMaxScale 5
+       m_Prefab "{98D0BA37F22E7C77}Prefabs/Vegetation/Shelled Trees/Deadtree06.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+     }
+    }
+   }
+   m_fDensity 600
+   m_eOutlineType MIDDLE
+   m_fMinDistance 6
+   m_fMaxDistance 18
+  }
+  ForestGeneratorOutline Outline_Small {
+   m_aTreeGroups {
+    TreeGroupClass Tree {
+     m_aTrees {
+      ForestGeneratorTreeShort Tree1 {
+       m_Prefab "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+      }
+      ForestGeneratorTreeShort Tree2 {
+       m_Prefab "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
+      }
+      ForestGeneratorTreeShort Tree3 {
+       m_Prefab "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
+      }
+      ForestGeneratorTreeShort Tree4 {
+       m_Prefab "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et"
+       m_fWeight 0.25
+      }
+      ForestGeneratorTreeShort Tree5 {
+       m_Prefab "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et"
+       m_fWeight 0.5
+      }
+      ForestGeneratorTreeShort Tree6 {
+       m_fMinScale 0.7
+       m_Prefab "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+       m_fRandomPitchAngle 1
+       m_fRandomRollAngle 1
+      }
+      ForestGeneratorTreeShort Tree7 {
+       m_Prefab "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et"
+       m_fBotDistance 0.3
+       m_fRandomPitchAngle 1.5
+       m_fRandomRollAngle 1.5
+       m_fWeight 0.4
+      }
+      ForestGeneratorTreeShort Tree8 {
+       m_Prefab "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et"
+       m_fBotDistance 0.3
+      }
+      ForestGeneratorTreeMiddle Deadtree1 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{7EBBF8512DFE37D6}Prefabs/Vegetation/Tree/Dead tree10.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeShort Deadtree2 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{12EFCCB1913AB8F8}Prefabs/Vegetation/Tree/Dead tree13.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle Deadtree3 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{43C40C0F461669E3}Prefabs/Vegetation/Tree/Dead tree2.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle Deadtree4 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{A65840F64AF3FE88}Prefabs/Vegetation/Tree/Dead tree3.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle Deadtree5 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{9B6C65CE3F9F77BF}Prefabs/Vegetation/Tree/Dead tree4.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle Deadtree6 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{12A41DD78FBE6FFA}Prefabs/Vegetation/Tree/Dead tree6.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle Deadtree7 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{9B6C65CE3F9F77BF}Prefabs/Vegetation/Tree/Dead tree4.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle Deadtree8 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{12A41DD78FBE6FFA}Prefabs/Vegetation/Tree/Dead tree6.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree01 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{67211F5CA4218997}Prefabs/Vegetation/Shelled Trees/Deadtree01.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree02 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{0B752BBC18E506B9}Prefabs/Vegetation/Shelled Trees/Deadtree02.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree03 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{EEE96745140091D2}Prefabs/Vegetation/Shelled Trees/Deadtree03.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree04 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{AFC7B25B641AB583}Prefabs/Vegetation/Shelled Trees/Deadtree03_180.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree05 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{89AA0732E238A17A}Prefabs/Vegetation/Shelled Trees/Deadtree03_270.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree06 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{78227C85A1D04D88}Prefabs/Vegetation/Shelled Trees/Deadtree03_90.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree07 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{D3DD427D616C18E5}Prefabs/Vegetation/Shelled Trees/Deadtree04.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree08 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{E6D4E83F47D50AA8}Prefabs/Vegetation/Shelled Trees/Deadtree04_180.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree09 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{C0B95D56C1F71E51}Prefabs/Vegetation/Shelled Trees/Deadtree04_270.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree10 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{AAA44C8338A7E98A}Prefabs/Vegetation/Shelled Trees/Deadtree04_90.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree11 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{36410E846D898F8E}Prefabs/Vegetation/Shelled Trees/Deadtree05.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+      ForestGeneratorTreeMiddle ShelledTree12 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.5
+       m_Prefab "{98D0BA37F22E7C77}Prefabs/Vegetation/Shelled Trees/Deadtree06.et"
+       m_fBotDistance 0.65
+       m_fRandomPitchAngle 1.4
+       m_fRandomRollAngle 1.5
+      }
+     }
+    }
+   }
+   m_fDensity 700
+   m_fMinDistance 0
+   m_fMaxDistance 10
+  }
+  ForestGeneratorBottomLevel Intermediate {
+   m_aTreeGroups {
+    TreeGroupClass Trees {
+     m_aTrees {
+      ForestGeneratorTreeShort Tree1 {
+       m_fMinScale 0.4
+       m_fMaxScale 0.8
+       m_Prefab "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et"
+       m_fBotDistance 0.3
+       m_fRandomPitchAngle 1
+       m_fRandomRollAngle 1
+       m_fWeight 0.5
+      }
+      ForestGeneratorTreeShort Tree2 {
+       m_fMaxScale 1.5
+       m_Prefab "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et"
+       m_fBotDistance 0.25
+       m_fRandomPitchAngle 1
+       m_fRandomRollAngle 1
+       m_fWeight 0.3
+      }
+      ForestGeneratorTreeShort Tree3 {
+       m_fMinScale 0.6
+       m_Prefab "{3760B4AB5F6464C8}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_stump_01.et"
+       m_fBotDistance 0.5
+       m_fWeight 1.1
+      }
+      FallenTree Tree4 {
+       m_fMinScale 0.5
+       m_fMaxScale 1.35
+       m_Prefab "{7BEC4D46FABA042E}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_branch_01.et"
+       m_fRandomPitchAngle 20
+       m_CapsuleStartInEditor 0 0 3
+       m_CapsuleEndInEditor 0 0 -3
+      }
+      ForestGeneratorTreeMiddle Tree5 {
+       m_fMinScale 0.6
+       m_Prefab "{99D77B10B980D106}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_1f.et"
+       m_fBotDistance 0.3
+       m_fRandomPitchAngle 1.5
+       m_fRandomRollAngle 1.5
+       m_fMidDistance 1.5
+      }
+     }
+    }
+   }
+   m_fDensity 70
+  }
+  ForestGeneratorBottomLevel Bottom {
+   m_aTreeGroups {
+    TreeGroupClass Debris {
+     m_aTrees {
+      FallenTree Tree1 {
+       m_fMinScale 0.3
+       m_fMaxScale 0.8
+       m_Prefab "{EAD630CA74A4E021}PrefabLibrary/Vegetation/Debris/T_trunk_debris_02.et"
+       m_fBotDistance 2
+       m_CapsuleStartInEditor 1 2 12
+       m_CapsuleEndInEditor 1 0 -12
+       m_bAlignToNormal 0
+      }
+      FallenTree Tree2 {
+       m_fMinScale 0.3
+       m_fMaxScale 0.8
+       m_Prefab "{0F4A7C337841774A}PrefabLibrary/Vegetation/Debris/T_trunk_debris_03.et"
+       m_fBotDistance 2
+       m_CapsuleStartInEditor 1 2 12
+       m_CapsuleEndInEditor 1 0 -12
+       m_bAlignToNormal 0
+      }
+      FallenTree Tree3 {
+       m_fMinScale 0.3
+       m_fMaxScale 0.8
+       m_Prefab "{327E590B0D2DFE7D}PrefabLibrary/Vegetation/Debris/T_trunk_debris_04.et"
+       m_fBotDistance 2
+       m_CapsuleStartInEditor 1 2 12
+       m_CapsuleEndInEditor 1 0 -12
+       m_bAlignToNormal 0
+      }
+      FallenTree Tree4 {
+       m_fMinScale 0.3
+       m_fMaxScale 0.8
+       m_Prefab "{D7E215F201C86916}PrefabLibrary/Vegetation/Debris/T_trunk_debris_05.et"
+       m_fBotDistance 2
+       m_CapsuleStartInEditor 1 2 12
+       m_CapsuleEndInEditor 1 0 -12
+       m_bAlignToNormal 0
+      }
+      FallenTree Tree5 {
+       m_fMinScale 0.3
+       m_fMaxScale 0.8
+       m_Prefab "{20D3FD3EA3C26B57}PrefabLibrary/Vegetation/Debris/T_stump_debris_01.et"
+       m_fBotDistance 2
+       m_CapsuleStartInEditor 1 2 12
+       m_CapsuleEndInEditor 1 0 -12
+       m_bAlignToNormal 0
+      }
+      ForestGeneratorTreeShort Deadtree1 {
+       m_fMinScale 0.3
+       m_fMaxScale 0.8
+       m_Prefab "{9253AEACBE775113}PrefabLibrary/Vegetation/Trees/t_picea_abies_stump_03_forest.et"
+       m_fBotDistance 2
+      }
+      ForestGeneratorTreeShort DeadTree2 {
+       m_fMinScale 0.3
+       m_fMaxScale 0.8
+       m_Prefab "{4A1FEC948B749E87}PrefabLibrary/Vegetation/Trees/t_picea_abies_stump_02_forest.et"
+       m_fBotDistance 2
+      }
+     }
+    }
+   }
+   m_fDensity 1000
+  }
+  ForestGeneratorBottomLevel Rocks {
+   m_aTreeGroups {
+    TreeGroupClass Rocks {
+     m_aTrees {
+      ForestGeneratorTreeShort Rock1 {
+       m_fMinScale 0.7
+       m_Prefab "{59D79F785D414D67}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et"
+       m_fBotDistance 1.92
+       m_fRandomPitchAngle 6
+       m_fRandomRollAngle 6
+       m_fVerticalOffset -0.9
+       m_fWeight 10
+      }
+      ForestGeneratorTreeShort Rock2 {
+       m_fMinScale 0.72
+       m_Prefab "{3583AB98E185C249}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_ForestStone_02.et"
+       m_fBotDistance 1.9
+       m_fRandomPitchAngle 6
+       m_fRandomRollAngle 6
+       m_fVerticalOffset -1
+       m_fWeight 10
+      }
+      ForestGeneratorTreeShort Rock3 {
+       m_fMinScale 0.6
+       m_Prefab "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et"
+       m_fBotDistance 2
+       m_fRandomPitchAngle 6
+       m_fRandomRollAngle 6
+       m_fVerticalOffset -0.9
+       m_fWeight 10
+      }
+      ForestGeneratorTreeShort Rock4 {
+       m_fMinScale 0.7
+       m_Prefab "{9D3C9C3E5490D603}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_01/Granite_ForestCluster_01.et"
+       m_fBotDistance 2
+       m_fRandomPitchAngle 180
+       m_fWeight 3
+      }
+      FallenTree Rock5 {
+       m_fMinScale 0.7
+       m_fMaxScale 1.25
+       m_fBotDistance 1.8
+       m_CapsuleStartInEditor 2.5 0.5 3.75
+       m_CapsuleEndInEditor -2.5 0.5 -3.75
+      }
+     }
+    }
+   }
+   m_fDensity 20
+  }
+ }
+ m_aClusters {
+  ForestGeneratorCircleCluster Tree1 {
+   m_aObjects {
+    MiddleForestGeneratorClusterObject Tree1 {
+     m_fMinScale 0.6
+     m_Prefab "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et"
+     m_fBotDistance 0.3
+     m_fRandomPitchAngle 1.5
+     m_fRandomRollAngle 2
+     m_iMaxCount 4
+    }
+    SmallForestGeneratorClusterObject Tree2 {
+     m_fMinScale 0.6
+     m_Prefab "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+     m_fRandomPitchAngle 1
+     m_fRandomRollAngle 1
+     m_iMinCount 0
+     m_fMinRadius 0
+    }
+    SmallForestGeneratorClusterObject Tree3 {
+     m_fMinScale 0.6
+     m_Prefab "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+     m_fBotDistance 0.5
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_fMinRadius 1.5
+     m_fMaxRadius 3.5
+    }
+    SmallForestGeneratorClusterObject Tree4 {
+     m_fMinScale 0.7
+     m_Prefab "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+     m_fBotDistance 0.5
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_fMinRadius 1.5
+     m_fMaxRadius 4
+    }
+    MiddleForestGeneratorClusterObject Tree5 {
+     m_fMinScale 0.7
+     m_Prefab "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et"
+     m_fBotDistance 1.1
+     m_fRandomPitchAngle 2
+     m_fRandomRollAngle 2
+     m_iMinCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 5
+     m_fMidDistance 1
+    }
+   }
+   m_fMinCDENSHA 3
+   m_fMaxCDENSHA 10
+  }
+  ForestGeneratorCircleCluster Tree2 {
+   m_aObjects {
+    SmallForestGeneratorClusterObject Tree1 {
+     m_fMinScale 0.2
+     m_fMaxScale 0.6
+     m_Prefab "{59D79F785D414D67}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et"
+     m_fBotDistance 2
+     m_iMinCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 4
+    }
+    SmallForestGeneratorClusterObject Tree2 {
+     m_fMinScale 0.2
+     m_fMaxScale 0.6
+     m_Prefab "{3583AB98E185C249}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_ForestStone_02.et"
+     m_fBotDistance 2
+     m_iMinCount 0
+     m_iMaxCount 1
+     m_fMinRadius 0
+     m_fMaxRadius 5
+    }
+    SmallForestGeneratorClusterObject Tree3 {
+     m_fMinScale 0.2
+     m_fMaxScale 0.6
+     m_Prefab "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et"
+     m_fBotDistance 1.75
+     m_iMaxCount 1
+     m_fMinRadius 0
+     m_fMaxRadius 5
+    }
+    SmallForestGeneratorClusterObject Tree4 {
+     m_fMinScale 0.7
+     m_fMaxScale 1
+     m_Prefab "{F168A8DEE854592D}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_ForestCluster_02.et"
+     m_fBotDistance 2.25
+     m_fRandomPitchAngle 180
+     m_iMaxCount 5
+     m_fMinRadius 0
+     m_fMaxRadius 7
+    }
+    SmallForestGeneratorClusterObject Tree5 {
+     m_fMinScale 0.5
+     m_fMaxScale 0.9
+     m_Prefab "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et"
+     m_fBotDistance 0.2
+     m_iMinCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 3
+    }
+    SmallForestGeneratorClusterObject Tree6 {
+     m_Prefab "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
+     m_iMinCount 0
+     m_iMaxCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject Tree7 {
+     m_Prefab "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+     m_iMinCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject Tree8 {
+     m_Prefab "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et"
+     m_fBotDistance 0.1
+     m_fRandomPitchAngle 1
+     m_fRandomRollAngle 1
+     m_iMinCount 0
+     m_iMaxCount 3
+     m_fMinRadius 2
+     m_fMaxRadius 6
+    }
+    SmallForestGeneratorClusterObject Tree9 {
+     m_fMinScale 0.65
+     m_Prefab "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+     m_fBotDistance 0.15
+     m_fRandomPitchAngle 1
+     m_fRandomRollAngle 1
+     m_iMinCount 0
+     m_iMaxCount 3
+     m_fMinRadius 0
+     m_fMaxRadius 5
+    }
+    SmallForestGeneratorClusterObject Tree10 {
+     m_fMinScale 0.7
+     m_Prefab "{F1DB9A8115310093}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1f.et"
+     m_fBotDistance 0.15
+     m_fRandomPitchAngle 1
+     m_fRandomRollAngle 1
+     m_iMinCount 0
+     m_fMinRadius 0
+     m_fMaxRadius 4
+    }
+   }
+   m_fMaxCDENSHA 5
+  }
+  ForestGeneratorCircleCluster Tree3 {
+   m_aObjects {
+    SmallForestGeneratorClusterObject Tree1 {
+     m_fMinScale 0.5
+     m_fMaxScale 1.25
+     m_Prefab "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et"
+     m_fBotDistance 0.25
+     m_iMaxCount 8
+     m_fMinRadius 0
+     m_fMaxRadius 3
+    }
+    SmallForestGeneratorClusterObject Tree2 {
+     m_fMinScale 0.5
+     m_Prefab "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et"
+     m_fBotDistance 0.25
+     m_fRandomPitchAngle 1
+     m_fRandomRollAngle 1
+     m_iMinCount 0
+     m_iMaxCount 3
+    }
+   }
+   m_fMinCDENSHA 15
+   m_fMaxCDENSHA 25
+  }
+ }
+}
