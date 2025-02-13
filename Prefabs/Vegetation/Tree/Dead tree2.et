@@ -1,0 +1,15 @@
+Tree : "{3470A1B83A51196A}Prefabs/Vegetation/Tree/t_betula_pendula_stump_01.et" {
+ ID "0F2AA6B42CA78628"
+ components {
+  MeshObject "{5B1B2765FB25508C}" {
+   Object "{440443EBFC0DC468}Assets/Vegetation/Tree/Populus_Nigra/Dst/T_Populus_nigra_3s_dst_base.xob"
+   LODFactors {
+    120 5 3 2 1 1
+   }
+  }
+ }
+ coords -795.881 19.46 818.301
+ angleX -0.785
+ angleZ 1.277
+ scale 0.613
+}

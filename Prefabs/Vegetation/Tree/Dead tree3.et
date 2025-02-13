@@ -1,0 +1,8 @@
+Tree : "{3470A1B83A51196A}Prefabs/Vegetation/Tree/t_betula_pendula_stump_01.et" {
+ ID "0F2AA6B42CA78628"
+ components {
+  MeshObject "{5B1B2765FB25508C}" {
+   Object "{864BB7C34C44FFC8}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/T_Alnus_glutinosa_2f_dst_base.xob"
+  }
+ }
+}

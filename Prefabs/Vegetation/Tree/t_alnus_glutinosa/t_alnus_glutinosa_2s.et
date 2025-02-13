@@ -1,0 +1,9 @@
+Tree : "{DCFDFDD029B27AC4}Prefabs/Vegetation/Tree/t_alnus_glutinosa/t_alnus_glutinosa_base.et" {
+ ID "0F2AA6B42CA78628"
+ coords 5244.64 0.014 983.094
+ MaxHealth 4000
+ "Kinetic multiplier" 1
+ "Fragmentation multiplier" 5
+ "Explosive multiplier" 4
+ "Incendiary multiplier" 5
+}
