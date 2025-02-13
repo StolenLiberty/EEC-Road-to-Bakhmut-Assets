@@ -1,0 +1,89 @@
+MetaFileClass {
+ Name "{0BF34F2975F79270}Assets/Structures/Warehouse/Warehouse.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{63152C0F73A4E1E6}" {
+     SourceMaterial "Warehouse1Aircon"
+     AssignedMaterial "{FDDD79EDF1218C2E}Assets/Structures/Warehouse/Data/Warehouse1Aircon.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E1C5}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{C44C8DC1AFA356F3}Assets/Structures/Warehouse/Data/Material.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E1B8}" {
+     SourceMaterial "Warehouse1Door1"
+     AssignedMaterial "{C5D530AA3F91F22F}Assets/Structures/Warehouse/Data/Warehouse1Door1.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E1BD}" {
+     SourceMaterial "Warehouse1Interior"
+     AssignedMaterial "{0C6B931431AF54FF}Assets/Structures/Warehouse/Data/Warehouse1Interior.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E1B1}" {
+     SourceMaterial "Warehouse1MainDoor1"
+     AssignedMaterial "{53334C8A2CEE518C}Assets/Structures/Warehouse/Data/Warehouse1MainDoor1.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E1AB}" {
+     SourceMaterial "Warehouse1RoofStruts1"
+     AssignedMaterial "{97E3F863B99E43B4}Assets/Structures/Warehouse/Data/Warehouse1RoofStruts1.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E1AC}" {
+     SourceMaterial "Warehouse1Roof1"
+     AssignedMaterial "{C7CA3D1686B30E91}Assets/Structures/Warehouse/Data/Warehouse1Roof1.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E1A0}" {
+     SourceMaterial "Warehouse1WallsTop1"
+     AssignedMaterial "{9B96C3F5DE642C3E}Assets/Structures/Warehouse/Data/Warehouse1WallsTop1.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E1A5}" {
+     SourceMaterial "Warehouse1Detail1"
+     AssignedMaterial "{79A7A8C86DA784A4}Assets/Structures/Warehouse/Data/Warehouse1Detail1.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E19A}" {
+     SourceMaterial "Warehouse1WallFront1"
+     AssignedMaterial "{33FDB165C3CC201B}Assets/Structures/Warehouse/Data/Warehouse1WallFront1.emat"
+    }
+    MaterialAssignClass "{63152C0F73A4E197}" {
+     SourceMaterial "Warehouse1WallSides1"
+     AssignedMaterial "{66F9A2969647EF84}Assets/Structures/Warehouse/Data/Warehouse1WallSides1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Warehouse {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Colider {
+     LayerPreset "Interaction"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{63152C0F724A14D3}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{63152C0F724A192B}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{63152C0F724A1EB5}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{63152C0F724A1E42}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{63152C0F724A1FF4}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{63152C0F724A1FB2}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

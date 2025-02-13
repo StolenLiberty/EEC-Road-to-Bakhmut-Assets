@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{97E3F863B99E43B4}Assets/Structures/Warehouse/Data/Warehouse1RoofStruts1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

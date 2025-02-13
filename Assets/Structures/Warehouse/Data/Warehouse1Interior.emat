@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{C11B4090FC42C26D}Assets/Structures/Warehouse/Data/Warehouse1InteriorCol1.edds"
+ NMOMap "{ED33FBAD37BA8D02}Assets/Structures/Warehouse/Data/Warehouse1InteriorNM1.edds"
+}

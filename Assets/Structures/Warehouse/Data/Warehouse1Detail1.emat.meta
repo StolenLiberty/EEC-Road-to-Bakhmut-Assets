@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{79A7A8C86DA784A4}Assets/Structures/Warehouse/Data/Warehouse1Detail1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

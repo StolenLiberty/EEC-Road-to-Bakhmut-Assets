@@ -1,0 +1,5 @@
+MatPBRBasic {
+ AOScale 0.5
+ BCRMap "{D7BDD0C29F60DA32}Assets/Vegetation/Dead Trees/DeadTree03/Data/Cap_Texture_Albedo.edds"
+ NMOMap "{BEDA7DD58589B8F5}Assets/Vegetation/Dead Trees/DeadTree03/Data/Cap_Texture_Normal.edds"
+}

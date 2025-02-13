@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{33FDB165C3CC201B}Assets/Structures/Warehouse/Data/Warehouse1WallFront1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
