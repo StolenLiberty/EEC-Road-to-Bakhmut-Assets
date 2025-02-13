@@ -1,0 +1,38 @@
+SCR_DestructibleBuildingEntity : "{301874A9C9A455C7}Prefabs/Structures/Houses/Village/HouseAddon_Shed_E_01/HouseAddon_Shed_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  GenericEntity : "{270728E69E8B2D7E}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_R_EXT_COV_01.et" {
+   ID "63021523FFFA769A"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "Socket_double_right_door"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{4B531C06224FA250}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_R_EXT_COV_02.et" {
+   ID "63021523FFFA76A5"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "Socket_right_door"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{9D6C69116A1DE3B0}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_L_EXT_COV_01.et" {
+   ID "63021523FFFA68EF"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "Socket_double_left_door"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

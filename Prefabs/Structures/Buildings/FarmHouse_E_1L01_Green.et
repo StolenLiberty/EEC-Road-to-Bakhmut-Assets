@@ -1,0 +1,24 @@
+SCR_DestructibleBuildingEntity : "{23ED22AC15AA9EE7}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{6302152236C23C93}" {
+     SourceMaterial "FarmHouse_E_1L01_Ext1"
+     AssignedMaterial "{F877758DC6BF579F}Assets/Structures/Houses/Farm/FarmHouse_E_1L01/Data/FarmHouse_E_1L01_Ext1_green.emat"
+    }
+    MaterialAssignClass "{6302152236C23C8B}" {
+     SourceMaterial "FarmHouse_E_1L01_EXT_MLOD"
+     AssignedMaterial "{5921E4676A95C438}Assets/Structures/Houses/Farm/FarmHouse_E_1L01/Data/FarmHouse_E_1L01_EXT_green_MLOD.emat"
+    }
+   }
+  }
+ }
+ coords 5676.161 -0.022 4051.441
+ {
+  GenericEntity : "{3699B29980A38F7D}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01_furniture_01.et" {
+   ID "6302152236C23C4B"
+   coords 0 0 0
+  }
+ }
+}

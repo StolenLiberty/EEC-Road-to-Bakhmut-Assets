@@ -1,0 +1,28 @@
+GenericEntity : "{A5AF7B6A08886EB3}Prefabs/Structures/Buildings/DestroyedHouse_20.et" {
+ ID "62E201B94130BCBF"
+ components {
+  MeshObject "{62E201B97C552891}" {
+   Materials {
+    MaterialAssignClass "{63152C0CC41C6FD2}" {
+     SourceMaterial "KB3D_WRK_BrickOrangeDirtD"
+     AssignedMaterial "{D0920BAACA9238EE}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteBlockA.emat"
+    }
+    MaterialAssignClass "{63152C0CC41C6FC4}" {
+     SourceMaterial "KB3D_WRK_BrickOrangeDirtE"
+     AssignedMaterial "{D0920BAACA9238EE}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteBlockA.emat"
+    }
+   }
+  }
+  RigidBody "{644D1552675A8D90}" {
+   Layers 10633218
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{644D15526B68A8EB}" {
+  }
+  Hierarchy "{644D15525530EF52}" {
+  }
+ }
+ coords 5541.1 76.002 2112.945
+ angleY 25.973
+}

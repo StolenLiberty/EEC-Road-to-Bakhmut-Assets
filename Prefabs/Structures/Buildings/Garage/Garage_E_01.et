@@ -1,0 +1,10 @@
+SCR_DestructibleBuildingEntity : "{B1C6B4A379D1BB77}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01_Base.et" {
+ ID "591B677B0142FAA0"
+ coords 1.251 3.199 2.845
+ {
+  GenericEntity : "{5815E2B6F01D6C33}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01_furniture_01.et" {
+   ID "63021523CB3B95E3"
+   coords 0 0 0
+  }
+ }
+}

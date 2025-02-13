@@ -1,0 +1,66 @@
+SCR_DestructibleBuildingEntity : "{4472D9B48597C94D}Prefabs/Structures/Houses/Village/HouseAddon_Workshop_E_01/HouseAddon_Workshop_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  Building : "{05DD427C1DC0EF4E}Prefabs/Structures/BuildingParts/Windows/Win_Workshop_E_A/Win_Workshop_E_A_195x142_2_B_metal.et" {
+   ID "63021523F8F9831F"
+   components {
+    Hierarchy "{63021523F8F92EAA}" {
+     PivotID "socket_win_195x142_01"
+    }
+   }
+  }
+  GenericEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et" {
+   ID "63021523F8F9831C"
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "socket_entry_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{417F72B0CAAEB2C5}Prefabs/Structures/BuildingParts/Windows/Win_Workshop_E_A/Win_Workshop_E_A_100x72_2_B_metal.et" {
+   ID "63021523F8F908CC"
+   components {
+    Hierarchy "{63021523F8F92EA6}" {
+     PivotID "socket_win_100x72_01"
+    }
+   }
+  }
+  GenericEntity : "{83D0D6400E94237D}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_LEFT_EXT_COV_B.et" {
+   ID "63021523F8F908CA"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "socket_door_garage_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{8AD18D10C688180D}Prefabs/Structures/BuildingParts/Windows/Win_Workshop_E_A/Win_Workshop_E_A_150x72_2_B_metal.et" {
+   ID "63021523F8F92E9E"
+   components {
+    Hierarchy "{63021523F8F92EB3}" {
+     PivotID "socket_win_150x72_01"
+    }
+   }
+  }
+  GenericEntity : "{C9D3E3DC107A003B}Prefabs/Structures/Houses/Village/HouseAddon_Workshop_E_01/HouseAddon_Workshop_E_01_furniture_01.et" {
+   ID "63021523F8F92E9D"
+   coords 0 0 0
+  }
+  GenericEntity : "{EF84E2A0B250AC53}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_RIGHT_EXT_COV_B.et" {
+   ID "63021523F8F92E92"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "socket_door_garage_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

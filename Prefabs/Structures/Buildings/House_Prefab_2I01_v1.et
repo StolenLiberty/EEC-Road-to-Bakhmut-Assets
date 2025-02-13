@@ -1,0 +1,12 @@
+SCR_DestructibleBuildingEntity : "{7B848786FAA52728}Prefabs/Structures/Houses/Prefrabricated/House_Prefab_2I01/House_Prefab_2I01_base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  GenericEntity : "{2CD07DFC64729796}Prefabs/Structures/Houses/Prefrabricated/House_Prefab_2I01/House_Prefab_2I01_v1_furniture_01.et" {
+   ID "63021523CF180094"
+   coords 0 0 0
+  }
+  GenericEntity : "{37DDB14B45F9FB62}Prefabs/Structures/Houses/Prefrabricated/House_Prefab_2I01/House_Prefab_2I01_railing_metal.et" {
+   ID "63021523CF18008A"
+  }
+ }
+}

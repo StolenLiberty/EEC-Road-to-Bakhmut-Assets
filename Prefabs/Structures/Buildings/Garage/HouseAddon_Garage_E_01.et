@@ -1,0 +1,81 @@
+SCR_DestructibleBuildingEntity : "{ED100C4FA5097FC5}Prefabs/Structures/Houses/Village/HouseAddon_Garage_E_01/HouseAddon_Garage_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  Building : "{05DD427C1DC0EF4E}Prefabs/Structures/BuildingParts/Windows/Win_Workshop_E_A/Win_Workshop_E_A_195x142_2_B_metal.et" {
+   ID "63021523FD3CADF0"
+   components {
+    Hierarchy "{63021523FD3F39F9}" {
+     PivotID "socket_win_195x142_b_01"
+    }
+   }
+  }
+  GenericEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et" {
+   ID "63021523FD3CADF2"
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "socket_entry_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{3200C90105712DB2}Prefabs/Structures/Houses/Village/HouseAddon_Garage_E_01/HouseAddon_Garage_E_01_Furniture_01.et" {
+   ID "63021523FD3C8594"
+   coords 0 0 0
+  }
+  Building : "{361774B83C99FD82}Prefabs/Structures/BuildingParts/Windows/Win_village_E_A/Win_village_e_a_130x72_2_B.et" {
+   ID "63021523FD3C859C"
+   components {
+    Hierarchy "{63021523FD3F398E}" {
+     Enabled 1
+     PivotID "socket_win_130x72_b_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{79F622DEBB73D581}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_COV_B_brown.et" {
+   ID "63021523FD3C8582"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_door_ext_left_01"
+    }
+   }
+   angleY 180
+  }
+  GenericEntity : "{83D0D6400E94237D}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_LEFT_EXT_COV_B.et" {
+   ID "63021523FD3C8583"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "socket_door_garage_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{EF84E2A0B250AC53}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_RIGHT_EXT_COV_B.et" {
+   ID "63021523FD3C8580"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "socket_door_garage_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{FA188839C5E6DAD3}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01_narrow.et" {
+   ID "63021523FD3F39F7"
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "socket_entry_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}
