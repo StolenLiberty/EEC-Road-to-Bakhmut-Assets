@@ -1,0 +1,665 @@
+SCR_DestructibleBuildingEntity : "{42BD4F39DFC35EDE}Prefabs/Structures/Houses/Village/House_Village_E_1I06/House_Village_E_1I06_base.et" {
+ ID "55B0CB029D2CDF20"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{6302152358C530B7}" {
+     SourceMaterial "House_Village_E_1I06_MLOD"
+     AssignedMaterial "{64D4D109ADA80FE2}Assets/Structures/Houses/Village/House_Village_E_1I06/Data/House_Village_E_1I06_MLOD_Brown.emat"
+    }
+    MaterialAssignClass "{6302152358C530B8}" {
+     SourceMaterial "House_Village_E_1I06_ext1"
+     AssignedMaterial "{0EB5D247944733BC}Assets/Structures/Houses/Village/House_Village_E_1I06/Data/House_Village_E_1I06_ext1_Brown.emat"
+    }
+    MaterialAssignClass "{6302152358C530BB}" {
+     SourceMaterial "House_Village_E_1I06_ext_roof"
+     AssignedMaterial "{208B3FE149E21714}Assets/Structures/Houses/Village/House_Village_E_1I06/Data/House_Village_E_1I06_ext_roof_Brown.emat"
+    }
+   }
+  }
+ }
+ {
+  $grp GenericEntity : "{13B032160342EFE6}Prefabs/Structures/BuildingParts/Windows/Glass_74x165/Glass_74x165.et" {
+   {
+    ID "6302152358C16B86"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C16B89"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C17FCF"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C18D3A"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C18D3C"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C18D3D"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C1B6F4"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_014"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C1B6F5"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_015"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C1B6F6"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C1BC30"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C1BC31"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C2478D"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_012"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C29A4A"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_011"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C29A4B"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_013"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C2E6A8"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_glass_72x150_010"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{32BB71E4BF6A737C}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_130x142_B.et" {
+   {
+    ID "6302152358C205A1"
+    components {
+     Hierarchy "{6302152358C53053}" {
+      Enabled 1
+      PivotID "socket_window_130x142_012"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C205A3"
+    components {
+     Hierarchy "{6302152358C5305A}" {
+      Enabled 1
+      PivotID "socket_window_130x142_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C205A4"
+    components {
+     Hierarchy "{6302152358C53040}" {
+      Enabled 1
+      PivotID "socket_window_130x142_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C205A5"
+    components {
+     Hierarchy "{6302152358C5304D}" {
+      Enabled 1
+      PivotID "socket_window_130x142_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C33C91"
+    components {
+     Hierarchy "{6302152358C5306B}" {
+      Enabled 1
+      PivotID "socket_window_130x142_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C33C92"
+    components {
+     Hierarchy "{6302152358C5306F}" {
+      Enabled 1
+      PivotID "socket_window_130x142_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C35168"
+    components {
+     Hierarchy "{6302152358C53078}" {
+      Enabled 1
+      PivotID "socket_window_130x142_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C35176"
+    components {
+     Hierarchy "{6302152358C53061}" {
+      Enabled 1
+      PivotID "socket_window_130x142_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C35177"
+    components {
+     Hierarchy "{6302152358C53064}" {
+      Enabled 1
+      PivotID "socket_window_130x142_012"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C3D5D1"
+    components {
+     Hierarchy "{6302152358C5304A}" {
+      Enabled 1
+      PivotID "socket_window_130x142_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C3D5D2"
+    components {
+     Hierarchy "{6302152358C53077}" {
+      Enabled 1
+      PivotID "socket_window_130x142_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C3D5D3"
+    components {
+     Hierarchy "{6302152358C53072}" {
+      Enabled 1
+      PivotID "socket_window_130x142_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C4924B"
+    components {
+     Hierarchy "{6302152358C53004}" {
+      Enabled 1
+      PivotID "socket_window_130x142_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C4924C"
+    components {
+     Hierarchy "{6302152358C5301F}" {
+      Enabled 1
+      PivotID "socket_window_130x142_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C4CF4E"
+    components {
+     Hierarchy "{6302152358C5301C}" {
+      Enabled 1
+      PivotID "socket_window_130x142_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C4CF4F"
+    components {
+     Hierarchy "{6302152358C53010}" {
+      Enabled 1
+      PivotID "socket_window_130x142_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  Building : "{3773101C8BED0D56}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_130x142_M1.et" {
+   ID "6302152358C4BC24"
+   components {
+    MeshObject "{5104B6C51D848E87}" {
+     Materials {
+      MaterialAssignClass "{6302152358C53001}" {
+       SourceMaterial "Win_HouseWooden_E"
+       AssignedMaterial "{849B4ED3B809F5DE}Assets/Structures/BuildingsParts/Windows/Data/Win_HouseWooden_E_INT.emat"
+      }
+     }
+    }
+    Hierarchy "{6302152358C5300E}" {
+     PivotID "socket_window_130x142_02"
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{38503A18C3DCEBFB}Prefabs/Structures/Houses/Village/House_Village_E_1I06/House_Village_E_1I06_furniture_01.et" {
+   ID "6302152358C4BC27"
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{433A5E037160DCC0}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_L_INT_ST_M1.et" {
+   {
+    ID "6302152358C41E43"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_INT_left_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C4BC5B"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_INT_left_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C4BC5D"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_INT_left_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C4BC5E"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_INT_left_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C4BC5F"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_INT_left_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  Building : "{5B7F488AFFD88DB5}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_70x72_B_base.et" {
+   ID "6302152358C41E5C"
+   components {
+    Hierarchy "{6302152358C53023}" {
+     Enabled 1
+     PivotID "socket_window_70x72_07"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{74B7C77B6699AFE8}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_130x72_B.et" {
+   ID "6302152358C41E5D"
+   components {
+    Hierarchy "{6302152358C53028}" {
+     Enabled 1
+     PivotID "socket_window_130x72_05"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{851DA78219A892E0}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_L_INT_ST_B.et" {
+   ID "6302152358C41E5E"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_door_INT_left_05"
+    }
+   }
+  }
+  GenericEntity : "{864BABBFAC109FD9}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_L_INT_COV_B.et" {
+   ID "6302152358C41E58"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_door_INT_left_07"
+    }
+   }
+  }
+  $grp Building : "{B0AE21F6C99146AA}Prefabs/Structures/BuildingParts/Windows/win_roof_70x70_1_B.et" {
+   {
+    ID "6302152358C41E59"
+    components {
+     Hierarchy "{6302152358C533D1}" {
+      Enabled 1
+      PivotID "socket_window_70x70_013"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C41E5A"
+    components {
+     Hierarchy "{6302152358C533DD}" {
+      Enabled 1
+      PivotID "socket_window_70x70_012"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  Building : "{C40FEF53F27DB88C}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_70x72_M1_open.et" {
+   ID "6302152358C5E8A2"
+   components {
+    MeshObject "{5104B6C51D848E87}" {
+     Materials {
+      MaterialAssignClass "{6302152358C533D9}" {
+       SourceMaterial "Win_HouseWooden_E"
+       AssignedMaterial "{849B4ED3B809F5DE}Assets/Structures/BuildingsParts/Windows/Data/Win_HouseWooden_E_INT.emat"
+      }
+     }
+    }
+    Hierarchy "{6302152358C533C4}" {
+     PivotID "socket_window_70x72_03"
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{C59BA01B43F77262}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_70x182_B.et" {
+   ID "6302152358C5E8A3"
+   components {
+    Hierarchy "{6302152358C533C6}" {
+     Enabled 1
+     PivotID "socket_window_70x182_012"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+   {
+    ID "6302152358C57718"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C57719"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C5E8AC"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{E02E23FB15EC1862}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_ST_B_brown.et" {
+   {
+    ID "6302152358C5308D"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_EXT_left_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C5308E"
+    components {
+     MeshObject "{61B367470698533A}" {
+      Materials {
+       MaterialAssignClass "{6302152358C533C9}" {
+        SourceMaterial "Assets/Structures/BuildingsParts/Doors/Data/Doors_Village_E"
+        AssignedMaterial "{A2D32876C291A8BE}Assets/Structures/BuildingsParts/Doors/Data/Doors_Village_E_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_EXT_left_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "56C4E40111B2AB1C"
+      components {
+       MeshObject "{309366462BDAFB24}" {
+        Materials {
+         MaterialAssignClass "{56C4E40190C56C51}" {
+          SourceMaterial "ColorPallete"
+          AssignedMaterial "{0BCDEB01412C5A9D}Assets/Structures/BuildingsParts/Doors/Data/Doors_Entrance_02_DarkBrown_MLOD.emat"
+         }
+         MaterialAssignClass "{56C4E40190C56C7E}" {
+          SourceMaterial "Doors_Entrance_02"
+          AssignedMaterial "{64C6380A2D6A2D80}Assets/Structures/BuildingsParts/Doors/Data/Doors_Entrance_02_DarkBrown_INT.emat"
+         }
+         MaterialAssignClass "{56C4E40190C56C7B}" {
+          SourceMaterial "Doors_Entrance_02_INT"
+          AssignedMaterial "{64C6380A2D6A2D80}Assets/Structures/BuildingsParts/Doors/Data/Doors_Entrance_02_DarkBrown_INT.emat"
+         }
+        }
+       }
+      }
+      {
+       GenericEntity {
+        ID "55B26EB37BEBC926"
+        components {
+         MeshObject "{51C4DA208DB0E200}" {
+          Materials {
+           MaterialAssignClass "{590C8C399286B7AD}" {
+            SourceMaterial "Assets/Structures/BuildingsParts/Windows/Data/window_glass"
+            AssignedMaterial "{DFF3A8696381DD38}Assets/Structures/BuildingsParts/Windows/Data/window_glass_uneven_INT.emat"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{EB4E7AB298E2DA05}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_ST_M1_brown.et" {
+   {
+    ID "6302152358C53088"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_EXT_left_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6302152358C5308F"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_EXT_left_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}

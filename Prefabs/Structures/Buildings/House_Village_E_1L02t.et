@@ -1,0 +1,70 @@
+SCR_DestructibleBuildingEntity : "{58A839659867372C}Prefabs/Structures/Houses/Village/House_Village_E_1L02/House_Village_E_1L02_Base.et" {
+ ID "6653677CF06D14F4"
+ {
+  Building {
+   ID "55868127901DAE69"
+   components {
+    MeshObject "{5104B6C51D848E87}" {
+     Materials {
+      MaterialAssignClass "{6302152389BA8C22}" {
+       SourceMaterial "Assets/Structures/BuildingsParts/Windows/Data/window_white"
+       AssignedMaterial "{672CB9AEBD07594B}Assets/Structures/BuildingsParts/Windows/Data/window_white_INT.emat"
+      }
+     }
+    }
+   }
+   {
+    GenericEntity {
+     ID "56B2C848447A76F5"
+     components {
+      MeshObject "{51C4DA208DB0E200}" {
+       Materials {
+        MaterialAssignClass "{6302152389BA8CD2}" {
+         SourceMaterial "11__Defaultasdasd"
+         AssignedMaterial "{95C204D12167FDDE}Assets/Structures/BuildingsParts/Windows/Data/window_glass_INT.emat"
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "56B2C848447A776A"
+     components {
+      MeshObject "{51C4DA208DB0E200}" {
+       Materials {
+        MaterialAssignClass "{6302152389BA8CDA}" {
+         SourceMaterial "11__Defaultasdasd"
+         AssignedMaterial "{95C204D12167FDDE}Assets/Structures/BuildingsParts/Windows/Data/window_glass_INT.emat"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et" {
+   {
+    ID "6302152389BA8C10"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      PivotID "socket_door_double_02"
+     }
+    }
+    angleY 180
+   }
+   {
+    ID "6302152389BA8C17"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      PivotID "socket_door_double_03"
+     }
+    }
+    angleY 180
+   }
+  }
+  GenericEntity : "{B685BC96054374AE}Prefabs/Structures/Houses/Village/House_Village_E_1L02/House_Village_E_1L02_furniture_01.et" {
+   ID "6302152389BA8C11"
+   coords 0 0 0
+  }
+ }
+}

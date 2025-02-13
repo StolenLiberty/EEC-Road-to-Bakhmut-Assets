@@ -1,0 +1,27 @@
+SCR_DestructibleBuildingEntity : "{0281C8310F67BD81}Prefabs/Structures/Houses/Village/House_Village_E_1I08/House_Village_E_1I08_Base.et" {
+ ID "6653677CF4985173"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{6302152387FCEB5A}" {
+     SourceMaterial "House_Village_E_1I08t_MLOD"
+     AssignedMaterial "{52AF6A490E9F07D8}Assets/Structures/Houses/Village/House_Village_E_1I08/Data/House_Village_E_1I08t_MLOD_white.emat"
+    }
+    MaterialAssignClass "{6302152387FCEB42}" {
+     SourceMaterial "House_Village_E_1I08t_exterior"
+     AssignedMaterial "{2D052CC505B057F9}Assets/Structures/Houses/Village/House_Village_E_1I08/Data/House_Village_E_1I08t_exterior_white.emat"
+    }
+    MaterialAssignClass "{6302152387FCEB49}" {
+     SourceMaterial "House_Village_E_1I08t_walls"
+     AssignedMaterial "{EAFE397F3FAA1E72}Assets/Structures/Houses/Village/House_Village_E_1I08/Data/House_Village_E_1I08t_walls_white.emat"
+    }
+   }
+  }
+ }
+ {
+  GenericEntity : "{8E3FEEDED2D8D741}Prefabs/Structures/Houses/Village/House_Village_E_1I08/House_Village_E_1I08_furniture_01.et" {
+   ID "6302152387FCEABD"
+   coords 0 0 0
+  }
+ }
+}

@@ -1,0 +1,19 @@
+SCR_DestructibleBuildingEntity : "{5D5DFAA27335CD9A}Prefabs/Structures/Houses/Village/House_Village_E_1L03/House_Village_E_1L03_Base.et" {
+ ID "6653677CF318E96D"
+ components {
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ {
+  GenericEntity {
+   ID "56168716C568EAB8"
+   coords 0 0 0
+  }
+  GenericEntity : "{61D46D733A12F950}Prefabs/Structures/Houses/Village/House_Village_E_1L03/House_Village_E_1L03t_furniture_01.et" {
+   ID "63021523F766EB4D"
+   coords 0 0 0
+  }
+ }
+}

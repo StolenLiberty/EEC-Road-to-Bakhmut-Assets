@@ -1,0 +1,155 @@
+SCR_DestructibleBuildingEntity : "{7A83D5480DED6B76}Prefabs/Structures/Houses/Wooden/House_Wooden_E_1I01/House_Wooden_E_1I01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   ClutterOccluderClipPlane 1.5
+  }
+ }
+ coords -19.467 -7.992 22.008
+ SlotBoneMappings {
+  SlotBoneMappingObject "{5184C9EB9FADD50F}" {
+   Prefab "{2A9517D5E59C7357}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_ST_M1.et"
+  }
+  SlotBoneMappingObject "{59B08DADB6933726}" {
+   Prefab "{1623DE74CC2B83E5}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_ST_B.et"
+  }
+  SlotBoneMappingObject "{5184C9EBFB8FA1EE}" {
+   Prefab "{96FE174FB59A3532}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_ST_B_brown.et"
+  }
+ }
+ {
+  EnvironmentProbeEntity {
+   ID "5218773B7B239698"
+   coords -0.003 2.35 -0.385
+  }
+  GenericEntity : "{05368CD6D20E22BE}Prefabs/Structures/Houses/Wooden/House_Wooden_E_1I01/House_Wooden_E_1I01_furniture_01.et" {
+   ID "63021523E4459BA2"
+   coords 0 0 0
+  }
+  GenericEntity : "{1623DE74CC2B83E5}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_ST_B.et" {
+   ID "63021523E4459BBB"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_int_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{2A9517D5E59C7357}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_ST_M1.et" {
+   ID "63021523E4459BB9"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_int_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{5264A6B356447D10}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_woodenhouse_130x142_0_B.et" {
+   ID "63021523E4459BB8"
+   components {
+    Hierarchy "{63021523E4446FD1}" {
+     Enabled 1
+     PivotID "socket_win_130x142_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{69A8FFE5527CB776}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01.et" {
+   ID "63021523E4459BBF"
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "socket_entry_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{91F04A4850A82EA7}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_woodenhouse_150x100_4_B.et" {
+   ID "63021523E4459BBE"
+   components {
+    Hierarchy "{63021523E4446FE9}" {
+     Enabled 1
+     PivotID "socket_win_150x100_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{96FE174FB59A3532}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_ST_B_brown.et" {
+   ID "63021523E4459BBD"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_ext_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp Building : "{A50BEEECA97A314E}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/win_woodenhouse_150x142_0_B.et" {
+   {
+    ID "63021523E4446FB5"
+    components {
+     Hierarchy "{63021523E4446FFC}" {
+      Enabled 1
+      PivotID "socket_win_150x142_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "63021523E4446FB6"
+    components {
+     Hierarchy "{63021523E4446FFF}" {
+      Enabled 1
+      PivotID "socket_win_150x142_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "63021523E4446FBA"
+    components {
+     Hierarchy "{63021523E4446FE0}" {
+      Enabled 1
+      PivotID "socket_win_150x142_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{D82C1CCD575819EA}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_woodenhouse_70x72_1_B.et" {
+   {
+    ID "63021523E4446FB0"
+    components {
+     Hierarchy "{63021523E4446FF0}" {
+      Enabled 1
+      PivotID "socket_win_70x72_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "63021523E4446FB7"
+    components {
+     Hierarchy "{63021523E4446FF4}" {
+      Enabled 1
+      PivotID "socket_win_70x72_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}
