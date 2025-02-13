@@ -1,0 +1,49 @@
+MetaFileClass {
+ Name "{D6FBBF019E9CD838}Assets/Vehicles/Destroyed Vehicles/DestroyedVic3.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{62CF0B22E7B46F4D}" {
+     SourceMaterial "caprice_low_Material_u1_v1"
+     AssignedMaterial "{63106E5FD645AEF2}Assets/Vehicles/Destroyed Vehicles/Data/caprice_low_Material_u1_v1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "Destroyed Car 2" {
+    }
+   }
+   GeometryParams {
+    GeometryParam "UTM_Destroyed Car 2" {
+     LayerPreset "Interaction"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{62CF0B22E6B95F68}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{62CF0B22E6B95C99}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{62CF0B22E6B95C6E}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{62CF0B22E6B95C3B}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{62CF0B22E6B95C1D}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{62CF0B22E6B95DEE}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

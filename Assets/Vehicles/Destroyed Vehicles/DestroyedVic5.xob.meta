@@ -1,0 +1,61 @@
+MetaFileClass {
+ Name "{A6362DD80CB88D8B}Assets/Vehicles/Destroyed Vehicles/DestroyedVic5.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{62CF0B273EC02D42}" {
+     SourceMaterial "MetalBase"
+     AssignedMaterial "{C42F2643AE6E0205}Assets/Vehicles/Destroyed Vehicles/Data/MetalBase.emat"
+    }
+    MaterialAssignClass "{62CF0B273EC02D02}" {
+     SourceMaterial "Details"
+     AssignedMaterial "{9627E2A3103BC9E3}Assets/Vehicles/Destroyed Vehicles/Data/Details.emat"
+    }
+    MaterialAssignClass "{62CF0B273EC052FB}" {
+     SourceMaterial "Lights"
+     AssignedMaterial "{6B996B1EC7C7213A}Assets/Vehicles/Destroyed Vehicles/Data/Lights.emat"
+    }
+    MaterialAssignClass "{62CF0B273EC052F6}" {
+     SourceMaterial "Wheels"
+     AssignedMaterial "{D25C23CDA4FD0828}Assets/Vehicles/Destroyed Vehicles/Data/Wheels.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "Destroyed BTR" {
+    }
+   }
+   GeometryParams {
+    GeometryParam "UTM_Destroyed BTR" {
+     LayerPreset "Interaction"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{62CF0B20C8DF39D1}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{62CF0B20C8DF20CC}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{62CF0B20C8DF2024}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{62CF0B20C8DF21F7}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{62CF0B20C8DF21C8}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{62CF0B20C8DF219B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
