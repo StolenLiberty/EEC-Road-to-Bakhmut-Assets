@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5F07AFA1958CFC70}Assets/Structures/Cellars/Data/Cellar_BCR.edds"
+ NMOMap "{67DF14334CFBAEEE}Assets/Structures/Cellars/Data/Cellar_NMO.edds"
+}

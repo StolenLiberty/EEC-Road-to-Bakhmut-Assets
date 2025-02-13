@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{BA9394FA7E0EE489}Assets/Structures/BuildingsParts/Funiture/Data/KB3D_WRK_SteelRoughBlackWorn_basecolor.edds"
+ NMOMap "{B4CD3BD72252C610}Assets/Structures/BuildingsParts/Funiture/Data/KB3D_WRK_SteelPaintedBlackWorn_normal.edds"
+}
