@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.745 0.745 0.745 1
+ BCRMap "{898D3907BF44B1B7}Assets/Structures/Houses/Data/KB3D_WRK_DryWallPaintedWhite_basecolor.edds"
+ NMOMap "{D70C72F4432CC847}Assets/Structures/Houses/Data/KB3D_WRK_DryWallPaintedBlue_normal.edds"
+}

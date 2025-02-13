@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.474 0.474 0.474 1
+ BCRMap "{CE37378583D3257B}Assets/Structures/Houses/Data/KB3D_WRK_IronDarkWorn_basecolor.edds"
+ NMOMap "{8F4D1069379960C1}Assets/Structures/Houses/Data/KB3D_WRK_IronDarkWorn_normal.edds"
+}

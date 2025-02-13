@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8499507D96A50BB9}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteDamagedEdgesTrim.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

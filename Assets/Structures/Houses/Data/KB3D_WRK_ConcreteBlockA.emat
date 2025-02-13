@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.474 0.474 0.474 1
+ BCRMap "{A60E2570CF9E42F3}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteRubbleB_basecolor.edds"
+ NMOMap "{83D419B5FDC38A1D}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteBlockA_normal.edds"
+}

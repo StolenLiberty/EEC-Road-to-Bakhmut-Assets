@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{F6A04F85D33EAF8C}Assets/Structures/Houses/Data/KB3D_WZT_floorA_basecolor.edds"
+ NMOMap "{C81415BB4D59BD00}Assets/Structures/Houses/Data/KB3D_WZT_floorA_normal.edds"
+}

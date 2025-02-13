@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.552 0.552 0.552 1
+ BCRMap "{0817052BB7A4E920}Assets/Structures/Houses/Data/KB3D_WRK_DebrisPileB_basecolor.edds"
+ NMOMap "{7A325F3BA4E51619}Assets/Structures/Houses/Data/KB3D_WRK_DebrisPileB_normal.edds"
+}

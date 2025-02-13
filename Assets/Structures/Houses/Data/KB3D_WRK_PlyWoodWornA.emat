@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.584 0.584 0.584 1
+ BCRMap "{E56B6C92B1761605}Assets/Structures/Houses/Data/KB3D_WRK_PlyWoodWornA_basecolor.edds"
+ NMOMap "{7809D316317CEF52}Assets/Structures/Houses/Data/KB3D_WRK_PlyWoodWornA_normal.edds"
+}

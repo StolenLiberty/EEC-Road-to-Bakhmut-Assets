@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.61 0.61 0.61 1
+ BCRMap "{DFB2A4D67C7D9EC6}Assets/Structures/Houses/Data/KB3D_WRK_BrickWorkWorn_basecolor.edds"
+ NMOMap "{04146951196D9789}Assets/Structures/Houses/Data/KB3D_WRK_BrickWorkWorn_normal.edds"
+}

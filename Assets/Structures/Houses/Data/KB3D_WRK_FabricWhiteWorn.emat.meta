@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8DA38787AF4366EF}Assets/Structures/Houses/Data/KB3D_WRK_FabricWhiteWorn.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

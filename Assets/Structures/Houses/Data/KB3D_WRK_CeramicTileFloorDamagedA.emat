@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.474 0.474 0.474 1
+ BCRMap "{AC6AC5966F4F268F}Assets/Structures/Houses/Data/KB3D_WRK_CeramicTileWallDamagedA_basecolor.edds"
+ NMOMap "{DF8485769C90BA35}Assets/Structures/Houses/Data/KB3D_WRK_CeramicTileWallDamagedA_normal.edds"
+}
