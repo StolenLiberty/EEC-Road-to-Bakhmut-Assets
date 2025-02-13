@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D6AB69F696505CB7}Assets/Structures/BuildingsParts/Funiture/Data/KB3D_WRK_PlyWoodWornC.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

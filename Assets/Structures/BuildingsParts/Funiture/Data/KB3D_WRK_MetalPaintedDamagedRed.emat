@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.25 0.105 0.105 1
+ BCRMap "{B4FEF7584F97CC20}Assets/Structures/BuildingsParts/Funiture/Data/KB3D_WRK_MetalPaintedDamagedA_basecolor.edds"
+ NMOMap "{A1CE3821DAEFE38F}Assets/Structures/BuildingsParts/Funiture/Data/KB3D_WRK_MetalPaintedDamagedD_normal.edds"
+}

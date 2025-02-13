@@ -1,0 +1,49 @@
+MetaFileClass {
+ Name "{C21A05E70675815F}Assets/Props/Flags/FlagFOG.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{64483E67880C1165}" {
+     SourceMaterial "MI_Flag_FOG_01"
+     AssignedMaterial "{9136892E1AFF4A98}Assets/Props/Flags/Data/MI_Flag_FOG_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Flag_3DMA_FOG_01 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Colider {
+     LayerPreset "InteractionFireGeo"
+     SurfaceProperties {
+      "{9B1C2BC43561D8C2}Common/Materials/Game/Fabric/fabric_0_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{64483E678E962148}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{64483E678E96270C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{64483E678E96245B}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{64483E678E9625D7}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{64483E678E96254A}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{64483E678E962AF5}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

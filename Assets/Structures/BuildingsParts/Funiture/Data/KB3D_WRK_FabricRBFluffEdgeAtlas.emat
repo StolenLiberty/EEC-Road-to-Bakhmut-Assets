@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.44 0.44 0.44 1
+ BCRMap "{5C819C0D09ECB788}Assets/Structures/BuildingsParts/Funiture/Data/KB3D_WRK_FabricRBFluffEdgeAtlas_basecolor.edds"
+ NMOMap "{C4B3E3EB49CF9281}Assets/Structures/BuildingsParts/Funiture/Data/KB3D_WRK_FabricBlackDirt_normal.edds"
+}

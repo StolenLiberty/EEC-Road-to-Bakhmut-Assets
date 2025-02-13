@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{80D4E6F91D1B19F6}Assets/Structures/BuildingsParts/Funiture/Data/KB3D_WRK_MetalPaintedDamagedRed.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
