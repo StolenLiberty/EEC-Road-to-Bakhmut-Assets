@@ -1,0 +1,93 @@
+MetaFileClass {
+ Name "{F95B3CDC8533963E}Assets/Structures/Houses/CollapsedBuilding02.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6314632C2981B995}" {
+     SourceMaterial "bricksA"
+     AssignedMaterial "{9A3EA33538911B3B}Assets/Structures/Houses/Data/bricksA.emat"
+    }
+    MaterialAssignClass "{6314632C2981B959}" {
+     SourceMaterial "woodA"
+     AssignedMaterial "{F4A2F9AA9EDF395A}Assets/Structures/Houses/Data/woodA.emat"
+    }
+    MaterialAssignClass "{6314632C2981B95C}" {
+     SourceMaterial "rubbleA"
+     AssignedMaterial "{482AC721D194DC93}Assets/Structures/Houses/Data/rubbleA.emat"
+    }
+    MaterialAssignClass "{6314632C2981B950}" {
+     SourceMaterial "plasterB"
+     AssignedMaterial "{B7884B1D5581EED9}Assets/Structures/Houses/Data/plasterB.emat"
+    }
+    MaterialAssignClass "{6314632C2981B955}" {
+     SourceMaterial "plasterA"
+     AssignedMaterial "{E960625EEA0C60D6}Assets/Structures/Houses/Data/plasterA.emat"
+    }
+    MaterialAssignClass "{6314632C2981B943}" {
+     SourceMaterial "metalRustA"
+     AssignedMaterial "{47637FB9D2AB271A}Assets/Structures/Houses/Data/metalRustA.emat"
+    }
+    MaterialAssignClass "{6314632C2981B945}" {
+     SourceMaterial "floorA"
+     AssignedMaterial "{A77A663D8F4CE6F3}Assets/Structures/Houses/Data/floorA.emat"
+    }
+    MaterialAssignClass "{6314632C2981B93F}" {
+     SourceMaterial "damageA"
+     AssignedMaterial "{D8AED8267261CFB9}Assets/Structures/Houses/Data/damageA.emat"
+    }
+    MaterialAssignClass "{6314632C2981B93C}" {
+     SourceMaterial "concreteB"
+     AssignedMaterial "{67A52D83598C2B64}Assets/Structures/Houses/Data/concreteB.emat"
+    }
+    MaterialAssignClass "{6314632C2981B937}" {
+     SourceMaterial "concreteA"
+     AssignedMaterial "{394D04C0E601A56B}Assets/Structures/Houses/Data/concreteA.emat"
+    }
+    MaterialAssignClass "{6314632C2981B928}" {
+     SourceMaterial "bricksAdamage"
+     AssignedMaterial "{5324B2C5ACB5A2AB}Assets/Structures/Houses/Data/bricksAdamage.emat"
+    }
+    MaterialAssignClass "{6314632C2981B92C}" {
+     SourceMaterial "assetA"
+     AssignedMaterial "{CD73823438E87306}Assets/Structures/Houses/Data/assetA.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Building {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Colider {
+     LayerPreset "InteractionFireGeo"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{630B132290157C70}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{630B132290157D85}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{630B132290157DDE}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{630B132290157E06}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{630B132290157E4C}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{630B132290157E67}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

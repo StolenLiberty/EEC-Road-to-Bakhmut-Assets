@@ -1,0 +1,81 @@
+MetaFileClass {
+ Name "{67827F14FE521D6D}Assets/Structures/Houses/CollapsedBuilding06.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{63146ADDBDA77C19}" {
+     SourceMaterial "plasterB"
+     AssignedMaterial "{B7884B1D5581EED9}Assets/Structures/Houses/Data/plasterB.emat"
+    }
+    MaterialAssignClass "{63146ADDBDA77DFE}" {
+     SourceMaterial "woodA"
+     AssignedMaterial "{F4A2F9AA9EDF395A}Assets/Structures/Houses/Data/woodA.emat"
+    }
+    MaterialAssignClass "{63146ADDBDA77DF0}" {
+     SourceMaterial "rubbleA"
+     AssignedMaterial "{482AC721D194DC93}Assets/Structures/Houses/Data/rubbleA.emat"
+    }
+    MaterialAssignClass "{63146ADDBDA77DF4}" {
+     SourceMaterial "plasterC"
+     AssignedMaterial "{43800C85585C86AD}Assets/Structures/Houses/Data/plasterC.emat"
+    }
+    MaterialAssignClass "{63146ADDBDA77DEA}" {
+     SourceMaterial "plasterA"
+     AssignedMaterial "{E960625EEA0C60D6}Assets/Structures/Houses/Data/plasterA.emat"
+    }
+    MaterialAssignClass "{63146ADDBDA77DE3}" {
+     SourceMaterial "metalRustA"
+     AssignedMaterial "{47637FB9D2AB271A}Assets/Structures/Houses/Data/metalRustA.emat"
+    }
+    MaterialAssignClass "{63146ADDBDA77DE0}" {
+     SourceMaterial "floorA"
+     AssignedMaterial "{A77A663D8F4CE6F3}Assets/Structures/Houses/Data/floorA.emat"
+    }
+    MaterialAssignClass "{63146ADDBDA77DE4}" {
+     SourceMaterial "damageA"
+     AssignedMaterial "{D8AED8267261CFB9}Assets/Structures/Houses/Data/damageA.emat"
+    }
+    MaterialAssignClass "{63146ADDBDA77DDF}" {
+     SourceMaterial "concreteA"
+     AssignedMaterial "{394D04C0E601A56B}Assets/Structures/Houses/Data/concreteA.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Building {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Colider {
+     LayerPreset "Interaction"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{63146ADDBC9AC59D}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{63146ADDBC9ACA87}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{63146ADDBC9ACA54}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{63146ADDBC9ACA27}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{63146ADDBC9ACBE7}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{63146ADDBC9ACBB7}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

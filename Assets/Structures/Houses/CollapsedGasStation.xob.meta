@@ -1,0 +1,110 @@
+MetaFileClass {
+ Name "{6A1FC12C20AB7876}Assets/Structures/Houses/CollapsedGasStation.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{630B132C890EBA28}" {
+     SourceMaterial "KB3D_WRK_DryWallPaintedWhite"
+     AssignedMaterial "{E9392C3D2FF17F36}Assets/Structures/Houses/Data/KB3D_WRK_DryWallPaintedWhite.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA4D}" {
+     SourceMaterial "KB3D_WRK_ConcreteRubbleB"
+     AssignedMaterial "{D0920BAACA9238EE}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteBlockA.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA49}" {
+     SourceMaterial "KB3D_WRK_DryWallPaintedBlue"
+     AssignedMaterial "{E9392C3D2FF17F36}Assets/Structures/Houses/Data/KB3D_WRK_DryWallPaintedWhite.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA46}" {
+     SourceMaterial "KB3D_WRK_MetalPaintedDamagedB"
+     AssignedMaterial "{8B4457C6515494AA}Assets/Structures/Houses/Data/KB3D_WRK_IronDarkWorn.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA5C}" {
+     SourceMaterial "KB3D_WRK_ConcreteDamageA"
+     AssignedMaterial "{8499507D96A50BB9}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteDamagedEdgesTrim.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA56}" {
+     SourceMaterial "KB3D_WRK_IronDarkWorn"
+     AssignedMaterial "{8B4457C6515494AA}Assets/Structures/Houses/Data/KB3D_WRK_IronDarkWorn.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA6C}" {
+     SourceMaterial "KB3D_WRK_MetalPaintedRustTrimm"
+     AssignedMaterial "{80D4E6F91D1B19F6}Assets/Structures/BuildingsParts/Funiture/Data/KB3D_WRK_MetalPaintedDamagedRed.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA6B}" {
+     SourceMaterial "KB3D_WRK_ConcreteDamagedEdgesTrimDark"
+     AssignedMaterial "{E9392C3D2FF17F36}Assets/Structures/Houses/Data/KB3D_WRK_DryWallPaintedWhite.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA62}" {
+     SourceMaterial "KB3D_WRK_SteelRebarTrim"
+     AssignedMaterial "{F052A2181F95F3DB}Assets/Structures/Houses/Data/KB3D_WRK_RoofSlateDamaged.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA7F}" {
+     SourceMaterial "KB3D_WRK_GlassDirtDamA"
+     AssignedMaterial "{DA85D6C33BF3D292}Assets/Props/Civilian/Ashtray_01/Data/Ashtray_01_glass_clear.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA72}" {
+     SourceMaterial "KB3D_WRK_IronLightWorn"
+     AssignedMaterial "{91008094E23A5585}Assets/Structures/Houses/Data/KB3D_WRK_IronLightWorn.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA9D}" {
+     SourceMaterial "KB3D_WRK_ConcreteRubblesRocksB"
+     AssignedMaterial "{D0920BAACA9238EE}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteBlockA.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA8B}" {
+     SourceMaterial "KB3D_WRK_ConcreteRubblesRocksA"
+     AssignedMaterial "{8499507D96A50BB9}Assets/Structures/Houses/Data/KB3D_WRK_ConcreteDamagedEdgesTrim.emat"
+    }
+    MaterialAssignClass "{630B132C890EBA81}" {
+     SourceMaterial "KB3D_WRK_DebrisPileB"
+     AssignedMaterial "{ECF9997AA85C1D47}Assets/Structures/Houses/Data/KB3D_WRK_DebrisPileB.emat"
+    }
+    MaterialAssignClass "{6312F0CD28537C1C}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{31D84220840C9AE3}Assets/Structures/Houses/Data/DefaultGeneratedMaterial.emat"
+    }
+   }
+   MeshParams {
+    MeshParam DestroyedGasStation {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Colider {
+     SurfaceProperties {
+      "{BF74128ABE05E424}MI_COL.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{630B132C899D8146}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+    GenerateBSP 1
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{630B132C899D8297}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+    GenerateBSP 1
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{630B132C899D82D4}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+    GenerateBSP 1
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{630B132C899D831D}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+    GenerateBSP 1
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{630B132C899D8349}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+    GenerateBSP 1
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{630B132C899D837A}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+    GenerateBSP 1
+   }
+  }
+ }
+}
