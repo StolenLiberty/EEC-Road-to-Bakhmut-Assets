@@ -1,0 +1,231 @@
+GenericEntity : "{85962C55454AFF13}Prefabs/Structures/Trenches/Trench_Bunker.et" {
+ ID "62F13C94283285AD"
+ coords 5143.778 134.073 4523.711
+ angleY -120
+ {
+  $grp GenericEntity {
+   {
+    ID "645167FC66E2BC31"
+    coords -2.737 0.008 -1.103
+   }
+   {
+    ID "645167FCE7804FA7"
+    coords 2.821 -0.011 -2.958
+   }
+  }
+  GenericEntity {
+   ID "645933E9B0E1FA0B"
+   coords -2.145 -1.833 0.714
+  }
+  GenericEntity {
+   ID "645933E9B0E1FA18"
+   coords -2.145 -1.679 0.714
+  }
+  GenericEntity {
+   ID "645933E9B0E1FA3F"
+   coords 2.144 -1.835 -2.576
+   angleY 75
+  }
+  GenericEntity {
+   ID "645933E9B0E1FB26"
+   coords 1.972 -1.837 -2.675
+   angleY 60
+  }
+  GenericEntity {
+   ID "645933E9B0E1FBA0"
+   coords -2.186 -1.833 -2.204
+   angleY 90
+  }
+  GenericEntity {
+   ID "645933E9B0E1FBF4"
+   coords -1.596 -1.679 0.714
+  }
+  GenericEntity {
+   ID "645933E9B0E1FBFA"
+   coords -1.596 -1.833 0.714
+  }
+  StaticModelEntity {
+   ID "645933E9B0E1FB2A"
+   coords -1.844 -1.833 0.607
+   angleY -180
+  }
+  StaticModelEntity {
+   ID "645933E9B0E1FBD2"
+   coords 1.837 -1.833 0.001
+   angleY -120
+  }
+  GenericEntity : "{0011A3CBD1B1212A}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_01.et" {
+   ID "645167F31F981AF0"
+   coords 0.326 -1.812 -3.066
+   angleX 1.073
+   angleY -135.009
+   angleZ -0.503
+  }
+  $grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+   {
+    ID "645167F31F981A25"
+    coords 2.028 -1.842 -2.096
+    angleY 0
+   }
+   {
+    ID "645167F31F981A29"
+    coords 1.523 -1.842 -2.864
+    angleY -90
+   }
+  }
+  GenericEntity : "{20759E1CA7F808BE}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUS_01.et" {
+   ID "645167F31F981AB7"
+   coords -1.181 -1.833 -2.513
+   angleX 0.115
+   angleY 165
+   angleZ -0.031
+  }
+  GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
+   ID "645167F31F981A8F"
+   coords -2.103 -1.833 -1.302
+   angleY -90
+   angleZ 3.001
+  }
+  StaticModelEntity : "{316C84B0306B198C}Prefabs/Vegetation/Plant/c_branches_debris_large_01.et" {
+   ID "645167F31F981BB4"
+   coords -0.391 1.007 -7.694
+   scale 1.92
+  }
+  StaticModelEntity : "{3D7FB651C9C11CCA}Prefabs/Vegetation/Plant/c_branches_debris_sparse_01.et" {
+   ID "645167F31F981BC5"
+   coords 2.131 1.037 -1.073
+   angleY -90
+  }
+  $grp GenericEntity : "{5E317DC74EA1F1A4}Prefabs/Props/Forest/WoodPile/WoodLog_01_B.et" {
+   {
+    ID "645167F636D5A46B"
+    coords -0.64 0.465 -4.392
+    angleY -90
+   }
+   {
+    ID "645167F747C296C8"
+    coords -3.099 0.465 -1.724
+   }
+  }
+  GenericEntity : "{642101F827FFA52D}Prefabs/Props/Military/Manuals/Manual_Soviet_01.et" {
+   ID "645167F31F981A0D"
+   coords 1.797 -0.193 -3.319
+   angleY -56.625
+  }
+  $grp GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
+   {
+    ID "645167F31F981AD1"
+    coords 1.502 -1.833 -1.518
+    angleY -120
+   }
+   {
+    ID "645167F31F981AE0"
+    coords 1.579 -1.833 -0.787
+   }
+  }
+  GenericEntity : "{70837F44CD03FD05}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Medical_01_USSR.et" {
+   ID "645167F31F981A54"
+   coords -0.587 -1.166 -3.643
+   angleY 3.003
+  }
+  GenericEntity : "{86909381FEDC8B93}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_02.et" {
+   ID "645167F31F981BCB"
+   coords -6.092 0.956 -2.217
+   angleY -65.234
+   angleZ -8.392
+  }
+  $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
+   {
+    ID "645167F636D5A415"
+    coords -0.722 -0.019 -4.404
+    angleY -90
+   }
+   {
+    ID "645167F636D5A44D"
+    coords 2.895 -0.019 -1.842
+    angleY -180
+   }
+   {
+    ID "645167F747C296FF"
+    coords -3.111 -0.019 -1.642
+   }
+  }
+  GenericEntity : "{92F3D49676C8CB61}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Launcher_01_USSR.et" {
+   ID "645167F31F981A5B"
+   coords -1.885 -1.833 -3.028
+   angleY -0.859
+  }
+  GenericEntity : "{A04DC55EB7C367F8}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_02.et" {
+   ID "645167F31F981502"
+   coords -1.7 -1.833 -1.121
+   angleY -90
+  }
+  GenericEntity : "{ACC3989741367DF1}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_03_dry.et" {
+   ID "645167F31F981BE6"
+   coords 5.904 1.378 -1.45
+   angleX 2.582
+   angleY 147.393
+   angleZ -146.173
+  }
+  $grp GenericEntity : "{B0686A3333E1F10E}Prefabs/Structures/Trenches/Trench_Block.et" {
+   {
+    ID "645167F636D5A424"
+    coords 6.485 0.941 -1.911
+    angleY -180
+    scale 0.69
+   }
+   {
+    ID "645167F636D5A45B"
+    coords -0.791 0.941 -7.917
+    angleY -90
+    scale 0.69
+   }
+   {
+    ID "645167F747C296B6"
+    coords -6.701 0.941 -1.573
+    scale 0.69
+   }
+  }
+  GenericEntity : "{B13C3ED783D3D194}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Medium_Top_FIA_01_V2.et" {
+   ID "645167F39996C901"
+   coords -0.367 -1.147 3.549
+   angleX -2.907
+   angleY 172.691
+   angleZ 0.367
+   scale 0.632
+  }
+  $grp GenericEntity : "{BBAD313E424466CF}Prefabs/Props/Forest/WoodPile/WoodLog_01_C.et" {
+   {
+    ID "645167F636D5A43F"
+    coords 2.891 0.292 -1.683
+    angleY -180
+   }
+   {
+    ID "645167F636D5A48D"
+    coords -0.563 0.292 -4.4
+    angleY -90
+   }
+   {
+    ID "645167F747C296DE"
+    coords -3.107 0.292 -1.801
+   }
+  }
+  GenericEntity : "{C280B28ED4DF7AC5}Prefabs/Props/Military/Sandbags/Sandbag_01_single_base.et" {
+   ID "645167F31F98155E"
+   coords -1.188 0.187 1.034
+   angleX -0.518
+   angleY -151.029
+   angleZ -0.138
+  }
+  StaticModelEntity : "{C6BFE324CCCFE6C4}Prefabs/Props/Military/Furniture/CotMilitary_USSR_01.et" {
+   ID "645167F31F981A3E"
+   coords -2.178 -1.833 -0.933
+   angleY -90
+  }
+  GenericEntity : "{D349CAB0A6544C59}Prefabs/Props/Furniture/TableWorkshop_01_short.et" {
+   ID "645167F31F981A71"
+   coords 1.989 -1.857 -2.714
+   angleY -90
+  }
+ }
+}

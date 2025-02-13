@@ -1,0 +1,16 @@
+GenericEntity {
+ ID "62DB41B619752554"
+ components {
+  MeshObject "{62DB41B619752526}" {
+   Object "{22AA79F04640B44F}Assets/Vegetation/Dead Trees/DeadTree03/Deadtree03_90.xob"
+  }
+  RigidBody "{62DB41B61975250F}" {
+   Layers 10895362
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{62DB41B619752503}" {
+  }
+ }
+ coords 1387.822 62.576 3748.117
+}
